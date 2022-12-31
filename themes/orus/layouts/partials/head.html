@@ -1,0 +1,47 @@
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <meta http-equiv="Content-Language" content="{{ .Site.Language.Lang }}">
+    {{ with .Site.Params.googlesiteverification }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    <meta name="description" content="{{ .Description | default (.Summary | default .Site.Params.description ) }}">
+    <meta name="keywords" content="{{ (delimit .Keywords ",") | default .Site.Params.keywords }}">
+    {{ with .Params.robotsdisallow }}<meta name="robots" content="noindex, nofollow, noarchive">{{ else }}<meta name="robots" content="index, follow, archive">{{ end }}
+    {{ range .AlternativeOutputFormats -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+
+
+{{ if .IsHome}}
+<meta property="og:image" content="{{ .Site.Params.avatarurl }}">
+{{ else }}
+    {{ with .Params.Image }}
+<meta property="og:image" content="{{ . | absURL }}" />
+    {{ end }}
+{{ end }}
+{{ template "_internal/opengraph.html" . }}
+
+    {{ "<!--Favicon-->" | safeHTML }}
+    <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+    <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+
+    <!-- Favicons -->
+    <link href="/images/favicon.png" rel="icon">
+
+  <!-- Netlify CMS Files -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <!-- Compiled CSS Files -->
+{{ $style := resources.Get "scss/style.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+
+    {{ if .Permalink }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ end }}
+
+    {{ template "_internal/google_analytics.html" . }}
+    {{ hugo.Generator }}
+</head>

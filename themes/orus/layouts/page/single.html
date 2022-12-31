@@ -1,0 +1,31 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+
+  <!-- Page Content-->
+<section class="container">
+      <div class="row gx-5">
+        <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2 mb-4">
+           {{ partial "breadcrumbs.html" . }}
+            <article class="mb-4 p-2">
+
+
+
+            <header class="my-4">
+
+                <h2 class="fw-bolder mb-1 text-center">{{ .Title }}</h2>
+
+            </header>
+
+         <!-- Post content-->
+            <section class="mb-5">
+            {{ .Content }}
+            </section>
+
+             </article>
+      </div>
+    </div>
+</section>
+
+{{ end }}

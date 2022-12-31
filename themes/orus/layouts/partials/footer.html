@@ -1,0 +1,26 @@
+  <footer class="footer bg-light py-4">
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          {{ with .Site.Params.social }}
+
+        <div class="social-links text-center">
+          {{ range sort . "weight" }}
+            {{ if .icon }}
+                <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
+                <i class="px-1 {{ .icon }}" aria-hidden="true"></i>
+                </a>
+          {{ else }}
+                <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }}>{{ .name }}</a>
+          {{ end }}
+          {{ end }}
+         </div>
+          {{ end }}
+      {{ with .Site.Params.footercontent | safeHTML }}
+        <p>{{ . }}</p>
+      {{ end }}
+        </div>
+      </div>
+      <p class="footer text-center"><a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"> <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i> <span class="separator">•</span></a> {{ now.Format "2006"}} Crafted with <i class="fa fa-heart" aria-hidden=true></i> • by Alper Orus  & Powered by <a href="https://gohugo.io/">Hugo</a></p>
+    </section>
+  </footer>

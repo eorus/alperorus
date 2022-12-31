@@ -1,97 +1,158 @@
 # Hugo variables
 #
 baseurl = "/"
-languageCode = "en-us"
 title = "Alper Orus"
-theme = "hugo-theme-bootstrap4-blog"
-# number of posts to show on home/category/tag pages (Default: 10)
-paginate = 5
-# number of words to use for summary on home/category/tag pages (Default: 70)
-summaryLength = 50
-# optionally override the site's footer with custom copyright text
-# copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
-#googleAnalytics = "UA-123-45"
-#disqusShortname = "XYW"
+theme = "orus"
+
+paginate = 6
+summarylength = 10
+#sectionPagesMenu = "main"
+#disqusShortname = "xxxxxx"
+#googleAnalytics = "UA-181067611-1"
+languagecode = "en"
+defaultcontentlanguage = "tr"
+defaultcontentlanguageinsubdir = false
 
 [permalinks]
-  posts = "/:year/:month/:title/"
-  page = "/:slug/"
+    posts = "/posts/:year/:month/:slug/"
+    page = "/:slug/"
 
-[[menu.sidebar]]
-  name = "Link 1"
-  url = "https://example.com"
+canonifyURLs = true
+enableRobotsTXT = true
+# Define the number of posts per page
+paginate = 10
 
-[[menu.sidebar]]
-  name = "Link 2"
-  url = "https://example.org"
+[readingTime]
+one = "One minute to read"
+other = "{{.Count}} minutes to read"
 
-#[[menu.navbar]]
-#  name = "Link 1"
-#  url = "https://example.org"
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
 
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
 
-# Theme variables
-#
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series ="series"
+
 [params]
-  # Site author
-  author = "Your Name"
+    author = "Alper Orus"
+    avatarurl = "images/alper.jpg"
+    #gravatar = "john.doe@example.com"
+            info = "Front End Developer, Photographer, Blogger and a Passionate Linux Enthusiast"
+            hometext = "I’m a freelancer, entrepreneur. I usually write and generate content as a blogger about photography and camera industry. I also build websites or meet the digital transformation needs of companies."
+            homehello = "Hi I'm"
+            homebut = "Learn more about what I do"
+            description = "Alper Orus Personal Website"
+            keywords = "blog, photography, design, alper, personal, orus, eorus, linux, wordpress, hugo, frontend"
+            footercontent = "Fall in love with some activity, and do it! Nobody ever figures out what life is all about, and it doesn’t matter."
+    dateformat = "2 January 2006"
+    navbarBgColorClass = "navbar-light"
+    googleSiteVerification = "Aml4IkLX3Owh-C0d29uUJ7PbSDNUIVmh2SMQG7khDo8"
+    mainSections = ["posts"]
 
-  # Description/subtitle for homepage (can be Markdown)
-  description = "A simple Hugo theme based on the Bootstrap v4 blog example."
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/eorus/"
 
-  # Show header (default: true)
-  #header_visible = true
+[[params.social]]
+    name = "Flickr"
+    icon = "fab fa-flickr fa-2x"
+    weight = 1
+    url = "https://www.flickr.com/photos/eorus/"
 
-  # Format dates with Go's time formatting
-  date_format = "Mon Jan 02, 2006"
+[[params.social]]
+    name = "RSS"
+    icon = "fas fa-rss fa-2x"
+    weight = 2
+    url = "https://alperor.us/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
 
-  # verification string for Google Webmaster Tools
-  #google_verify_meta = "BAi57DROASu4b2mkVNA_EyUsobfA7Mq8BmSg7Rn-Zp9"
+[languages]
+    [languages.en]
+        languagename = "EN"
+        contentDir = "content/en"
+        weight = 1
 
-  # verification string for Bing Webmaster Tools
-  #bing_verify_meta = "3DA353059F945D1AA256B1CD8A3DA847"
+        [languages.en.menu]
 
-  # verification string for Yandex Webmaster Tools
-  #yandex_verify_meta = "66b077430f35f04a"
 
-  # Optionally display a message about the site's use of cookies, which may be
-  # required for your site in the European Union. Set the parameter below to a
-  # page where the user can get more information about cookies, either on your
-  # site or externally, for example:
-  #cookie_consent_info_url = "/cookie-information/"
-  #cookie_consent_info_url = "http://cookiesandyou.com"
+            [[languages.en.menu.main]]
+            name = "About"
+            pre = "<i class='fa fa-user'></i>"
+            weight = 1
+            url = "about/"
 
-  # show sharing icons on pages/posts (default: true)
-  #sharingicons = true
+            [[languages.en.menu.main]]
+            name = "Blog"
+            pre = "<i class='fa fa-newspaper'></i>"
+            weight = 2
+            url = "posts/"
 
-  # Display post summaries instead of content in list templates (default: true)
-  #truncate = true
+            [[languages.en.menu.main]]
+            name = "Photos"
+            pre = "<i class='fa fa-camera'></i>"
+            weight = 3
+            url = "photos/"
 
-  # Disable the use of sub-resource integrity on CSS/JS assets (default: false)
-  # Useful if you're using a CDN or other host where you can't control cache headers
-  #disable_sri = false
+            [[languages.en.menu.main]]
+            name = "Contact"
+            pre = "<i class='fa fa-envelope'></i>"
+            weight = 4
+            url = "contact/"
 
-  [params.sidebar]
-    # Optional about block for sidebar (can be Markdown)
-    about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
+    [languages.tr]
+        languagename = "TR"
+        title = "Alper Orus"
+        hometext = "Serbest çalışan bir girişimciyim. Genellikle bir blog yazarı olarak fotoğrafçılık ve kamera endüstrisi hakkında yazıyorum. Ayrıca web siteleri yapıyorum ya da şirketlerin her anlamda dijital dönüşüm ihtiyaçlarını karşılıyorum."
+        homehello = "Merhaba Ben"
+        homebut = "Neler yaptığım hakında daha fazla bilgi edinin"
+        contentDir = "content/tr"
+        weight = 2
 
-    # How many posts to show on the sidebar (Default: 5)
-    #num_recent_posts = 2
+        [languages.tr.params]
+            author = "Alper Orus"
+            description = "Alper Orus Kişisel Web Sitesi"
+            keywords = "alper, orus, eorus, blog, tasarım, fotoğraf, geliştirme, wordpress, hugo, linux"
+            info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı ve Tutkulu Linux Meraklısı"
+            footercontent = "Bir aktiviteye aşık olun ve yapın! Yaşamın ne olduğunu hiç kimse bilmiyor ve bunun hiçbir önemi yok. "
 
-  [params.social]
-    # Optional, used for attribution in Twitter cards (ideally not a person
-    # for example: nytimes, flickr, NatGeo, etc).
-    # See: https://dev.twitter.com/cards/types/summary-large-image
-    twitter = "username"
+        [languages.tr.menu]
 
-# Default content language for Hugo 0.17's multilingual support (default is "en")
-# See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
-#DefaultContentLanguage = "en"
 
-# Languages to render
-#[languages.en]
-#[languages.bg]
-  # Bulgarian date format is dd.mm.yyyy
-  #date_format = "02.01.2006"
+            [[languages.tr.menu.main]]
+            name = "Hakkimda"
+            pre = "<i class='fa fa-user'> </i>"
+            weight = 1
+            url = "hakkimda/"
 
-# vim: ts=2 sw=2 et
+            [[languages.tr.menu.main]]
+            name = "Yazılar"
+            pre = "<i class='fa fa-newspaper'></i>"
+            weight = 2
+            url = "posts/"
+
+            [[languages.tr.menu.main]]
+            name = "Fotoğraflar"
+            pre = "<i class='fa fa-camera'></i>"
+            weight = 3
+            url = "photos/"
+
+            [[languages.tr.menu.main]]
+            name = "İletişim"
+            pre = "<i class='fa fa-envelope'> </i>"
+            weight = 4
+            url = "iletisim/"
+
+[markup.goldmark.renderer]
+unsafe = true # Allow HTML in md files
+disableToc = "false"

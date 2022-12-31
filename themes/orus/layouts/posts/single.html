@@ -1,0 +1,94 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+
+  <!-- Page Content-->
+<section class="container">
+      <div class="row gx-5">
+        <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2 mb-4">
+           {{ partial "breadcrumbs.html" . }}
+            <!-- Post content-->
+             <article class="p-2 mb-4">
+
+
+            <header class="my-4">
+                <!-- Post title-->
+                <h1 class="fw-bolder mb-1">{{ .Title }}</h1>
+                <!-- Post meta content-->
+                {{ partial "metadata.html" . }}
+            </header>
+
+            {{if .Params.Image }}
+           <figure class="my-4 figure img-entry ">
+            <img width="1024" height="768" src="{{ .Params.Image | absURL }}"
+              class="attachment-post-thumbnail size-post-thumbnail wp-post-image figure-img img-fluid rounded w-100" alt="{{.Title }}"
+              sizes="(max-width: 1100px) 100vw, 1100px">
+           </figure><!-- .featured-media -->
+           {{end}}
+
+         <!-- Post content-->
+           <section class="mb-3">
+            {{ .Content }}
+            </section>
+
+             </article>
+
+{{- range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) -}}
+    {{- $.Scratch.Set "has_related" true -}}
+{{- end -}}
+
+{{ if $.Scratch.Get "has_related" }}
+    <div class="related-content">
+        <h3>Related Posts</h3>
+        <ul>
+            {{- $num_to_show := .Site.Params.related_content_limit | default 3 -}}
+            {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                &ndash;
+                <time datetime="{{ .Date.UTC.Format "2006-01-02T15:04:05-0700" }}">
+                    {{ .Date.Format "2 Jan 2006" }}
+                </time>
+                <br>
+                <small>{{ .Summary | plainify | htmlUnescape }}</small>
+            </li>
+          {{ end }}
+        </ul>
+        {{ partial "posts/series.html" . }}
+    </div>
+{{ end }}
+        <div class="float-start share">
+
+        {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}
+        {{ end }}
+        </div>
+
+        <div class="float-end share">
+        <a href="http://twitter.com/share?url={{ .Permalink }}" title="Share on Twitter"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" title="Share on Facebook"><i class="fab fa-facebook fa-lg"></i></a>
+        </div>
+
+        </article>
+      </div>
+          <div class="posts-nav d-flex justify-content-between align-items-stretch flex-column flex-md-row mb-5">
+                {{ with .PrevInSection }}
+                <a class="prev-post text-start d-flex align-items-center" href="{{ .Permalink }}">
+                 <i class="fa fa-arrow-left"></i>
+                 <div class="text"><strong class="text-danger">{{ .Title }}</strong>
+                 </div>
+                </a>
+                {{ end }}
+
+                {{ with .NextInSection }}
+                <a class="next-post text-end d-flex align-items-center justify-content-end" href="{{ .Permalink }}">
+                  <div class="text"><strong class="text-danger">{{ .Title }}</strong>
+                  <i class="fa fa-arrow-right"></i>
+                  </div>
+                </a>
+                {{ end }}
+          </div>
+    </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,11 @@
+<div class="text-muted fst-italic mb-2 post-meta metadata">
+
+{{ $dateTime := .PublishDate.Format "2006-01-02" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+<i class='fa fa-calendar'></i>
+<time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time> <span class="separator">•</span>
+<i class="fas fa-clock"></i>Reading Time : {{ .ReadingTime }}min
+<!--<i class='fa fa-user'></i> <a href="/">{{ .Site.Params.author }}</a>  <span class="separator">•</span>-->
+
+ </div>
+{{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}

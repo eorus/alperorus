@@ -1,0 +1,5 @@
+  {{- range $index, $el := . -}}
+    {{- if gt $index 0 }}
+    {{- end }}
+    <a class="badge bg-primary text-decoration-none" href="{{ ( printf "categories/%s/" ( . | urlize ) ) | relLangURL }}">{{ . }}</a>
+  {{- end -}}

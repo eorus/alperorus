@@ -1,0 +1,49 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+
+<section id="blog" class="blog container-xl page">
+     <div class="row">
+       <div class="col-lg-12 mb-4">
+
+            {{ partial "breadcrumbs.html" . }}
+
+          <header class="card-header text-center my-4 py-4">
+            <div class="card-title"><h1>{{ .Title }}</h1>
+            </div>
+          </header>
+       </div>
+      </div>
+     <div class="row">
+
+    {{ range .Paginator.Pages }}
+      <div class="col-lg-6 col-sm-12">
+        <article class="card shadow-lg mb-4">
+
+                                          {{ if .Params.Image }}
+
+                                  <div class="card-img">
+                                      <a href="{{ .Permalink }}">
+
+                                          <img src="{{ .Params.Image | relURL }}" class="img-fluid" alt="">
+                                      </a>
+                                  </div>
+
+                                   <h2 class="text-center fs-4 p-2">
+                                     <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                   </h2>
+
+                                          {{ end }}
+
+        </article>
+      </div>
+{{ end }}
+
+        </div><!-- /.row -->
+                        <ul class="pagination">
+{{ template "_internal/pagination.html" . }}
+                        </ul>
+        </div><!-- /.container -->
+</section>
+{{ end }}

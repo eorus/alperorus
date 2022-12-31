@@ -1,0 +1,20 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+<section class="pt-5">
+  <div class="container shadow section-sm rounded page full-screen">
+     <div class="row">
+      <div class="col-lg-8">
+        <article class="post">
+          <header class="mb-2">
+            <h1 class="font-weight-medium">{{ .Title }}</h1>
+          </header>
+<br>
+            {{ .Content }}
+        </article>
+       </div>
+      </div>
+    </div>
+</section>
+{{ end }}

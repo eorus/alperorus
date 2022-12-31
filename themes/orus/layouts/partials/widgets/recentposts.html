@@ -1,0 +1,24 @@
+<h3 class="sidebar-title">Recent Posts</h3>
+<div class="sidebar-item recent-posts">
+{{- $recent := where .Site.RegularPages "Section" "in" (.Site.Params.postSections | default (slice "posts")) }}
+{{- $recent_num := (.Site.Params.widgets.recent_num | default 5) }}
+
+{{- if $recent }}
+			{{- range first $recent_num $recent }}
+<div class="post-item clearfix">
+                                      <a href="{{ .Permalink }}">
+                                          {{ if .Params.Image }}
+                                          <img src="{{ .Params.Image | relURL }}" class="img-fluid" alt="">
+                                          {{ else }}
+                                          <img src="{{ "/images/blog.jpg" | relURL }}" class="img-fluid" alt="">
+                                          {{ end }}
+                                      </a>
+            <h4><a class="widget__link" href="{{ .RelPermalink }}">{{ .Title }}</a></li></h4>
+{{ $dateTime := .PublishDate.Format "2006-01-02" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+<time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+</div>
+			{{- end }}
+
+</div><!-- End sidebar recent posts-->
+{{- end }}

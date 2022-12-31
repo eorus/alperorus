@@ -1,0 +1,21 @@
+{{ if .Site.Params.widgets.categories }}
+{{ if isset .Site.Taxonomies "categories" }}
+{{ if not (eq (len .Site.Taxonomies.categories) 0) }}
+    <header>
+              <h3 class="sidebar-title">Categories</h3>
+    </header>
+
+              <div class="sidebar-item categories">
+        <ul class="nav nav-pills nav-stacked">
+            {{ $current := . }}
+            {{ range $name, $items := .Site.Taxonomies.categories }}
+            <li{{ if eq $current.RelPermalink ($name | urlize | lower | printf "/categories/%s/") }} class="nav-item active"{{ end }}>
+                <a href="{{ "categories/" | relURL }}{{ $name | urlize | lower }}">{{ $name }} ({{ len $items }})</a>
+            </li>
+            {{ end }}
+        </ul>
+              </div><!-- End sidebar categories-->
+
+{{ end }}
+{{ end }}
+{{ end }}

@@ -1,0 +1,11 @@
+<ul class="list-inline mb-5">
+<li class="list-inline-item">
+  <i class="fa fa-tags fa-lg" aria-hidden="true"></i>
+  {{- range $index, $el := . -}}
+    {{- if gt $index 0 }}
+      <span class="separator">•</span>
+    {{- end }}
+    <a class="tag" href="{{ ( printf "tags/%s/" ( . | urlize ) ) | relLangURL }}">{{ . }}</a>
+</li>
+  {{- end -}}
+ </ul>

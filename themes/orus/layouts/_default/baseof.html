@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+
+    <body class="{{ .Type }} {{ with .File }}{{ .TranslationBaseName }}{{ end }} d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+        {{- partial "header.html" . -}}
+
+        {{- block "main" . }}{{- end }}
+        </main>
+
+        {{- partial "footer.html" . -}}
+        {{- partial "script.html" . -}}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    </body>
+</html>

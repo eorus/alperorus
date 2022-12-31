@@ -1,0 +1,23 @@
+{{ define "title" }}
+  {{- if eq .Kind "term" -}}
+    {{- i18n .Data.Singular | title -}}
+    {{- print ": " -}}
+  {{- end -}}
+
+  {{- .Title }} · {{ .Site.Title -}}
+{{ end }}
+{{ define "main" }}
+
+<section class="container-xl">
+  <div class="row">
+        <div class="col-12">
+          <header>
+            <h1 class="entry-title">{{- .Title -}}</h1>
+          </header>
+            {{ partial "breadcrumbs.html" . }}
+            {{ .Content }}
+        </div>
+
+    </div>
+</section>
+{{ end }}

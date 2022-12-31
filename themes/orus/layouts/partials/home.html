@@ -1,0 +1,40 @@
+           <!-- Header-->
+            <header class="bg-light py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+
+                              <h1 class="display-6 fw-bolder mb-2">{{ .Site.Params.homehello }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> </h1>
+                              <h2 class="display-8 fw-bolder mb-2">{{ .Site.Params.info }}</h2>
+                                <p class="lead fw-normal mb-4">{{ .Site.Params.hometext }}</p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                  <a href="/en/about" class="btn btn-primary px-2 mb-3">{{ .Site.Params.homebut }}</a>
+                                </div>
+                                <a href="https://github.com/eorus/" aria-label="Github">
+                                  <i class="px-1 fab fa-github fa-2x" aria-hidden="true"></i>
+                                </a>
+
+                                <a href="https://www.flickr.com/photos/eorus/" aria-label="Flickr">
+                                  <i class="px-1 fab fa-flickr fa-2x" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+                          {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
+                          {{ with .Site.Params.avatarurl }}
+                          <picture>
+                            <source srcset="/images/alper.webp" type="image/webp">
+                            <source srcset="/images/alper.jpg" type="image/jpeg">
+                            <img class="img-fluid rounded-circle" src="{{ . | relURL }}" alt="Alper Orus Image">
+                          </picture>
+                          {{ end }}
+                          {{ end }}
+                          {{ with .Site.Params.gravatar }}
+                          <div class="avatar"><img class="img-responsive rounded-circle" src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" alt="Alper Orus Image"></div>
+                          {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </header>
