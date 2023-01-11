@@ -17,7 +17,7 @@ slug = "contact"
 </div>
 <div class="columns justify-content-cente m-2">
 <div class="column col-12">
-<div class="p-2">
+<div class="p-2 bg-light">
           <h2 class="h4 text-black mb-3">Get In Touch</h2>
 <div class="columns align-items-center">
 <div class="column col-8 col-sm-12 text-left">
@@ -26,7 +26,7 @@ If you need a website for your business or you are looking for new freelance col
 </div>
 <div class="column col-4 col-sm-12 text-center">
 
-<a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Contact From Eorus Website" class="btn btn-danger custom-btn m-2">Write a Message ✉️</a>
+<a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Contact From Eorus Website" class="btn btn-primary m-2">Write a Message ✉️</a>
 </div>
 </div>
 </div>

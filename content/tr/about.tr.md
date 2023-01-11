@@ -16,12 +16,12 @@ En son teknolojileri kullanarak interaktif tasarımlar geliştiriyorum. Bilgimi 
 ### Bilgi Sahibi Olduğum Yapılar
 
 - Sunucu Kurulumu
-- Wordpress, Hugo, Next.Js
+- Wordpress, Hugo
 - HTML5, CSS, JS, PHP ve GO
-- Frameworks Bootstrap, Bulma, Pure, Tailwind
-- Linux iş Akışı, Git
+- Frameworks Bootstrap, Bulma, Pure, Spectre, Skeleton
+- Linux İş Akışı, Git
 - Kodlama için Nvim
-- Sass, Npm
+- Sass, Npm, Gulp
 
 ### Neler Yapabilirim
 
@@ -30,7 +30,6 @@ En son teknolojileri kullanarak interaktif tasarımlar geliştiriyorum. Bilgimi 
 - İçerik Oluşturma
 - Şablon / Tema Özelleştirme
 - CMS Entegrasyonu
-- Netlify, AWS, Vercel ve Cloudflare ile Sunucusuz Entegrasyon
 - Hugo ile Sunucusuz Siteler Oluşturma
 - Özel Çok Dilli Wordpress ve Hugo Temaları Oluşturma
 
@@ -38,7 +37,7 @@ Altyapı
 ---------
 
 * Hugo ile statik olarak oluşturulmuştur.
-* Hosting Cloudpages tarafından sağlanmaktadır.
+* Hosting Netlify tarafından sağlanmaktadır.
 * Sürüm kontrolü Github ile yapılmaktadır.
 * NeoVim ile kodlanmış ve yazılmıştır.
-* Bootstrap 5 ile hazırlanmış özel bir Hugo teması kullanılmaktadır.
+* Spectre CSS kullanılarak hazırlanmış özel bir Hugo teması kullanılmaktadır.

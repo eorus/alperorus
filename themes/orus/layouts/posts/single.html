@@ -19,9 +19,9 @@
                 {{ partial "metadata.html" . }}
             </header>
 
-            {{if .Params.Image }}
+            {{if .Params.featured_image }}
            <figure class="my-4 figure img-entry ">
-            <img width="1024" height="768" src="{{ .Params.Image | absURL }}"
+             <img width="1024" height="768" src="{{ .Params.featured_image | absURL }}"
               class="attachment-post-thumbnail size-post-thumbnail wp-post-image figure-img img-fluid rounded w-100" alt="{{.Title }}"
               sizes="(max-width: 1100px) 100vw, 1100px">
            </figure><!-- .featured-media -->

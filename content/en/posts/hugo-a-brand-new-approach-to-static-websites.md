@@ -1,15 +1,13 @@
 ---
 title: "Hugo : A Brand New Approach to Static Websites"
 author: Alper Orus
-date:  2022-12-05T18:18:06+03:00
+date:  2020-12-05T18:18:06+03:00
 draft: false
 categories:
   - Web
-  - Hugo
+
 tags:
   - Hugo
-series:
-  - Theme
 
 Image: "/images/hugo-static-site-generator.jpg"
 

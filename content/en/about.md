@@ -16,12 +16,12 @@ I develop interactive designs, using the latest technologies. I use my knowledge
 ### Skills
 
 - Server Setup
-- Wordpress, Hugo, Next.Js
+- Wordpress, Hugo
 - HTML5, CSS, JS, PHP and GO
-- Frameworks Bootstrap, Bulma, Pure, Tailwind
+- Frameworks Bootstrap, Bulma, Pure, Spectre, Skeleton
 - Linux Workflow, Git
 - Nvim for coding
-- Sass, Npm
+- Sass, Npm, Gulp
 
 ### What I Do
 
@@ -30,7 +30,6 @@ I develop interactive designs, using the latest technologies. I use my knowledge
 - Content Creation
 - Template/Theme Customisation
 - CMS Integration
-- Serverless integrations with Netlify, AWS, Cloudflare and Vercel
 - Building Serverless Sites with Hugo
 - Creating Custom Multi Language Wordpress and Hugo Themes
 
@@ -38,7 +37,7 @@ I develop interactive designs, using the latest technologies. I use my knowledge
 This site is :
 
 - Statically generated with Hugo.
-- Hosting provided by Cloudpages
+- Hosting provided by Netlify
 - Version control provided by GitHub.
 - Coded and written with NeoVim
-- Using a custom Hugo theme with Bootstrap 5 CSS Framework
+- Using a custom Hugo theme with Spectre CSS Framework

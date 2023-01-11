@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css" />
 
-    <div class="gallery">
+    <div class="row gallery">
         {{ $base := .Get "src" }}
 	{{ $path := print "static/" (.Get "src") }}
 
@@ -26,9 +26,12 @@
         {{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp)" }}<!-- is the current file an image? -->
         {{- if and $isimg (not $isthumb) }}
         {{- $thumb := .Name | replaceRE "(\\.)" ($thumbext | printf "%s.") }}
+        <div class="col-sm-6 col-md-4 col-lg-3">
             <a data-fancybox="gallery" href="/{{ $base }}/{{ .Name }}">
                 <img src="/{{ $base  }}/{{ $thumb }}">  <br/>
             </a>
+        </div>
+
 
         {{- end }}
 	{{ end }}
