@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Site.Language.Lang }}">
     {{- partial "head.html" . -}}
 
     <body class="{{ .Type }} {{ with .File }}{{ .TranslationBaseName }}{{ end }} d-flex flex-column h-100">

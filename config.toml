@@ -84,7 +84,6 @@ other = "{{.Count}} minutes to read"
 
         [languages.en.menu]
 
-
             [[languages.en.menu.main]]
             name = "About"
             pre = "<i class='fa fa-user'></i>"
