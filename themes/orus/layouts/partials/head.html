@@ -31,8 +31,6 @@
     <!-- Favicons -->
     <link href="/images/favicon.png" rel="icon">
 
-  <!-- Netlify CMS Files -->
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <!-- Compiled CSS Files -->
 {{ $style := resources.Get "scss/style.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">

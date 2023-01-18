@@ -1,6 +1,6 @@
 # Hugo variables
 #
-baseurl = "/"
+baseurl = "https://alperor.us/"
 title = "Alper Orus"
 theme = "orus"
 
@@ -53,8 +53,7 @@ other = "{{.Count}} minutes to read"
             keywords = "blog, photography, design, alper, personal, orus, eorus, linux, wordpress, hugo, frontend"
             footercontent = "Fall in love with some activity, and do it! Nobody ever figures out what life is all about, and it doesn’t matter."
     dateformat = "2 January 2006"
-    navbarBgColorClass = "navbar-light"
-    googleSiteVerification = "Aml4IkLX3Owh-C0d29uUJ7PbSDNUIVmh2SMQG7khDo8"
+    googleSiteVerification = "m0snGinntNZeCcUtR-3VL4xPM63J6sqyfvTmO9wFxOE"
     mainSections = ["posts"]
 
 [[params.social]]
