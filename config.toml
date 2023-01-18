@@ -17,7 +17,7 @@ defaultcontentlanguageinsubdir = false
     posts = "/posts/:year/:month/:slug/"
     page = "/:slug/"
 
-canonifyURLs = true
+#canonifyURLs = true
 enableRobotsTXT = true
 # Define the number of posts per page
 paginate = 10
