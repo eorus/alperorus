@@ -1,11 +1,11 @@
 +++
 draft = true
 date = {{ .Date }}
-title = ""
+title= "{{ replace .Name "-" " " | title }}"
 description = ""
 slug = ""
-author = []
-tags = []
-categories = []
-series = []
+author = ["Alper"]
+tags = ["Hugo"]
+categories = ["Blog"]
+# series = []
 +++
