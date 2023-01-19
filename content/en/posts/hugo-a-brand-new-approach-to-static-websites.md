@@ -4,7 +4,7 @@ author: Alper Orus
 date:  2020-12-05T18:18:06+03:00
 draft: false
 categories:
-  - Web
+  - Linux
 
 tags:
   - Hugo
