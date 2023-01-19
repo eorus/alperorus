@@ -4,10 +4,13 @@ author: Alper Orus
 date:  2020-12-05T18:18:06+03:00
 draft: false
 categories:
-  - Linux
+  - Open Source
 
 tags:
   - Hugo
+
+series:
+  - Theme
 
 Image: "/images/hugo-static-site-generator.jpg"
 

@@ -3,7 +3,7 @@ date = "2020-11-04T12:44:40+03:00"
 title = "Creating a New Theme"
 slug = "creating-a-new-theme"
 tags = ["Hugo"]
-categories = ["Blog"]
+categories = ["Open Source"]
 series = ["Theme"]
 Image= "/images/hugo-themes.jpg"
 +++
