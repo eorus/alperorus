@@ -1,0 +1,156 @@
+# Hugo variables
+#
+baseurl = "https://alperor.us/"
+title = "Alper Orus"
+theme = "orus"
+
+paginate = 6
+summarylength = 10
+#sectionPagesMenu = "main"
+#disqusShortname = "xxxxxx"
+#googleAnalytics = "UA-181067611-1"
+languagecode = "en"
+defaultcontentlanguage = "tr"
+defaultcontentlanguageinsubdir = false
+
+[permalinks]
+    posts = "/posts/:year/:month/:slug/"
+    page = "/:slug/"
+
+#canonifyURLs = true
+enableRobotsTXT = true
+# Define the number of posts per page
+paginate = 10
+
+[readingTime]
+one = "One minute to read"
+other = "{{.Count}} minutes to read"
+
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series ="series"
+
+[params]
+    author = "Alper Orus"
+    avatarurl = "images/alper.jpg"
+    #gravatar = "john.doe@example.com"
+            info = "Front End Developer, Photographer, Blogger and a Passionate Linux Enthusiast"
+            hometext = "I’m a freelancer, entrepreneur. I usually write and generate content as a blogger about photography and camera industry. I also build websites or meet the digital transformation needs of companies."
+            homehello = "Hi I'm"
+            homebut = "Learn more about what I do"
+            description = "Alper Orus Personal Website"
+            keywords = "blog, photography, design, alper, personal, orus, eorus, linux, wordpress, hugo, frontend"
+            footercontent = "Fall in love with some activity, and do it! Nobody ever figures out what life is all about, and it doesn’t matter."
+    dateformat = "2 January 2006"
+    googleSiteVerification = "m0snGinntNZeCcUtR-3VL4xPM63J6sqyfvTmO9wFxOE"
+    mainSections = ["posts"]
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/eorus/"
+
+[[params.social]]
+    name = "Flickr"
+    icon = "fab fa-flickr fa-2x"
+    weight = 1
+    url = "https://www.flickr.com/photos/eorus/"
+
+[[params.social]]
+    name = "RSS"
+    icon = "fas fa-rss fa-2x"
+    weight = 2
+    url = "https://alperor.us/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
+
+[languages]
+    [languages.en]
+        languagename = "EN"
+        contentDir = "content/en"
+        weight = 1
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+            name = "About"
+            pre = "<i class='fa fa-user'></i>"
+            weight = 1
+            url = "about/"
+
+            [[languages.en.menu.main]]
+            name = "Blog"
+            pre = "<i class='fa fa-newspaper'></i>"
+            weight = 2
+            url = "posts/"
+
+            [[languages.en.menu.main]]
+            name = "Photos"
+            pre = "<i class='fa fa-camera'></i>"
+            weight = 3
+            url = "photos/"
+
+            [[languages.en.menu.main]]
+            name = "Contact"
+            pre = "<i class='fa fa-envelope'></i>"
+            weight = 4
+            url = "contact/"
+
+    [languages.tr]
+        languagename = "TR"
+        title = "Alper Orus"
+        hometext = "Serbest çalışan bir girişimciyim. Genellikle bir blog yazarı olarak fotoğrafçılık ve kamera endüstrisi hakkında yazıyorum. Ayrıca web siteleri yapıyorum ya da şirketlerin her anlamda dijital dönüşüm ihtiyaçlarını karşılıyorum."
+        homehello = "Merhaba Ben"
+        homebut = "Neler yaptığım hakında daha fazla bilgi edinin"
+        contentDir = "content/tr"
+        weight = 2
+
+        [languages.tr.params]
+            author = "Alper Orus"
+            description = "Alper Orus Kişisel Web Sitesi"
+            keywords = "alper, orus, eorus, blog, tasarım, fotoğraf, geliştirme, wordpress, hugo, linux"
+            info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı ve Tutkulu Linux Meraklısı"
+            footercontent = "Bir aktiviteye aşık olun ve yapın! Yaşamın ne olduğunu hiç kimse bilmiyor ve bunun hiçbir önemi yok. "
+
+        [languages.tr.menu]
+
+
+            [[languages.tr.menu.main]]
+            name = "Hakkimda"
+            pre = "<i class='fa fa-user'> </i>"
+            weight = 1
+            url = "hakkimda/"
+
+            [[languages.tr.menu.main]]
+            name = "Yazılar"
+            pre = "<i class='fa fa-newspaper'></i>"
+            weight = 2
+            url = "posts/"
+
+            [[languages.tr.menu.main]]
+            name = "Fotoğraflar"
+            pre = "<i class='fa fa-camera'></i>"
+            weight = 3
+            url = "photos/"
+
+            [[languages.tr.menu.main]]
+            name = "İletişim"
+            pre = "<i class='fa fa-envelope'> </i>"
+            weight = 4
+            url = "iletisim/"
+
+[markup.goldmark.renderer]
+unsafe = true # Allow HTML in md files
+disableToc = "false"
