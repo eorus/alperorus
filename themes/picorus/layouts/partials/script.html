@@ -1,0 +1,10 @@
+<!-- Template Main JS File -->
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+      {{ if .Site.IsServer }}
+        {{ $script := resources.Get "js/main.js" }}
+        <script src="{{ $script.RelPermalink }}"></script>
+      {{ else }}
+        {{ $script := resources.Get "js/main.js" | minify | fingerprint }}
+        <script src="{{ $script.RelPermalink }}"></script>
+      {{ end }}
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>

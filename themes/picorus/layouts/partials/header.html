@@ -1,0 +1,46 @@
+     <nav class="container">
+        <ul>
+          <li><a href="/" class="contrast"><strong>{{.Site.Title}}</strong></a></li>
+
+        </ul>
+
+
+   {{ if or .Site.Menus.main .Site.IsMultiLingual }}
+        <ul>
+        {{ with .Site.Menus.main}}
+          {{ range sort . }}
+        <li>
+        <a class="nav-link" href="{{ .URL | relLangURL }}">
+          {{ .Pre }}
+          {{ .Name }}
+        </a>
+         </li>
+          {{ end }}
+        {{ end }}
+
+
+    {{ end }}
+        </ul>
+        <ul>
+          <li>
+        {{ if .Site.IsMultiLingual }}
+          {{ $node := . }}
+          {{ .Scratch.Set "separator" true }}
+          {{ range (default .Site.Home.AllTranslations .Translations) }}
+            {{ if ne $.Site.Language .Language }}
+<a href="{{ .Permalink }}" class="badge-btn" role="button">{{ .Language.LanguageName }}</a>
+
+            {{ end }}
+          {{ end }}
+        {{ end }}
+          </li>
+         <li>
+<div class="theme-switch-wrapper">
+    <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+  </label>
+</div>
+          </li>
+        </ul>
+      </nav>

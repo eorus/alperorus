@@ -1,0 +1,33 @@
+<section>
+    <hgroup>
+       <h2 class="fw-bolder">Güncel Yazılar</h2>
+        <p class="lead fw-normal text-muted mb-5">Son yazılarımdan bazıları</p>
+    </hgroup>
+          {{ range first 3 $.Site.RegularPages }}
+         <article id="article">
+           <header>
+           <a class="text-decoration-none link-dark stretched-link" href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+    <div class="grid">
+              <div> {{ range (.GetTerms "categories") }}
+             <kbd> <a class="secondary" href="{{ .Permalink }}">{{ .LinkTitle }}</a> </kbd>  {{ end }}
+            </div>
+<div>
+{{ $date := .Date.Format "02.01.2006" }}
+{{ $lastmod := .Lastmod.Format "02.01.2006" }}
+<i class='fa fa-calendar'></i>
+<time datetime="{{ $date }}">{{ $lastmod }}</time>
+</div>
+<div>
+  <i class="fas fa-clock"></i> Reading Time : {{ .ReadingTime }}min</div>
+    </div>
+           </header>
+           {{ .Summary }}
+
+         </article>
+{{ end }}
+
+                            <div class="see-all-post col-12 text-center">
+              <span>deneme</span>
+
+          </div>
+    </section>

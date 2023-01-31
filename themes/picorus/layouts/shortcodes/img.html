@@ -1,0 +1,10 @@
+<div class="column col-3 col-lg-3 col-md-4 col-xs-12">
+    <figure class="figure" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    {{ $url := .Get 0 }}
+    {{ if not (findRE "^(/|http(s?)://)" $url) }}
+        {{ $url = ($.Page.Resources.GetMatch $url).RelPermalink }}
+    {{ end }}
+    <a itemprop="contentUrl" data-fslightbox="gallery" data-width="500" data-height="400" data-custom-class="fslightbox-custom" href="{{ $url }}"><img src="{{ $url }}" itemprop="thumbnail" alt="{{ .Get 1 }}" class="figure-img img-fluid"></a>
+    {{ with .Get 1 }}<figcaption itemprop="caption description" class="figure-caption text-center">{{ . }}</figcaption>{{ end }}
+</figure>
+</div>

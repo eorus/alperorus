@@ -1,0 +1,40 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+
+<section>
+
+        <article class="post">
+          <header>
+            <h1>{{ .Title }}</h1>
+            <div class="grid">
+              <div> {{ range (.GetTerms "categories") }}
+             <kbd> <a class="secondary" href="{{ .Permalink }}">{{ .LinkTitle }}</a> </kbd>  {{ end }}
+            </div>
+<div>
+{{ $date := .Date.Format "02.01.2006" }}
+{{ $lastmod := .Lastmod.Format "02.01.2006" }}
+<i class='fa fa-calendar'></i>
+<time datetime="{{ $date }}">{{ $lastmod }}</time>
+</div>
+<div>
+  <i class="fas fa-clock"></i> Reading Time : {{ .ReadingTime }}min</div>
+          </header>
+            {{ .Content }}
+          <footer>
+<ul class="list-inline mb-5">
+    {{- with .Params.tags -}}
+        {{- if ge (len .) 1 -}}
+            {{- range . -}}
+               <i class="fa fa-tags" aria-hidden="true"></i> <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}/">{{ . }}</a>
+            {{ end -}}
+
+        {{- end -}}
+    {{- end -}}
+ </ul>
+          </footer>
+        </article>
+</section>
+
+{{ end }}

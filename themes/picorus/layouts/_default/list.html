@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
+
+<div class="post-list__container">
+  <ul class="post-list">
+    {{ range .Pages }}
+    <li class="post">
+      <div class="post__header">
+        <time class="post__date" datetime="{{ .Date }}"
+          >{{ .Date.Format $dateFormat }}</time>
+        <h2 class="post__title">
+          <a href="{{.RelPermalink}}">{{ .Title }}</a>
+        </h2>
+
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+
+</div>
+
+{{ end }}

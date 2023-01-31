@@ -1,0 +1,13 @@
+{{ partial "head/meta-tags.html" . }}
+
+{{ if .Permalink }}
+<link rel="canonical" href="{{ .Permalink }}">
+{{ end }}
+
+{{ partialCached "head/theme-styles.html" . }}
+
+{{ partialCached "head/rel-icons.html" . }}
+
+{{ partialCached "head/hugo-generator.html" . }}
+
+{{ partial "head/extensions.html" . }}

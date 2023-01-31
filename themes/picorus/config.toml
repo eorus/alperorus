@@ -1,0 +1,96 @@
+# Hugo variables
+#
+baseurl = "https://alperor.us/"
+title = "Alper Orus"
+theme = "picorus"
+languagecode = "en"
+defaultcontentlanguage = "tr"
+defaultcontentlanguageinsubdir = false
+
+[params]
+author = "John Doe"
+# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+description = "John Doe's personal website"
+keywords = "blog,developer,personal"
+info = ["Full Stack DevOps", "Magician"]
+avatarURL = "images/avatar.jpg"
+#gravatar = "john.doe@example.com"
+dateFormat = "January 2, 2006"
+since = 2019
+
+[languages]
+    [languages.en]
+        languagename = "EN"
+        contentDir = "content/en"
+        weight = 1
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+            name = "About"
+            pre = "<i class='fa fa-user'></i>"
+            weight = 1
+            url = "about/"
+
+            [[languages.en.menu.main]]
+            name = "Blog"
+            pre = "<i class='fa fa-newspaper'></i>"
+            weight = 2
+            url = "posts/"
+
+            [[languages.en.menu.main]]
+            name = "Photos"
+            pre = "<i class='fa fa-camera'></i>"
+            weight = 3
+            url = "photos/"
+
+            [[languages.en.menu.main]]
+            name = "Contact"
+            pre = "<i class='fa fa-envelope'></i>"
+            weight = 4
+            url = "contact/"
+
+    [languages.tr]
+        languagename = "TR"
+        title = "Alper Orus"
+        contentDir = "content/tr"
+        weight = 2
+
+        [languages.tr.params]
+            author = "Alper Orus"
+            description = "Alper Orus Kişisel Web Sitesi"
+            keywords = "alper, orus, eorus, blog, tasarım, fotoğraf, geliştirme, wordpress, hugo, linux"
+            info = "Ön Yüz Geliştirici, Fotoğrafçı, Blog Yazarı ve Tutkulu Linux Meraklısı"
+            footercontent = "Bir aktiviteye aşık olun ve yapın! Yaşamın ne olduğunu hiç kimse bilmiyor ve bunun hiçbir önemi yok. "
+
+        [languages.tr.menu]
+
+
+            [[languages.tr.menu.main]]
+            name = "Hakkimda"
+            pre = "<i class='fa fa-user'> </i>"
+            weight = 1
+            url = "hakkimda/"
+
+            [[languages.tr.menu.main]]
+            name = "Yazılar"
+            pre = "<i class='fa fa-newspaper'></i>"
+            weight = 2
+            url = "posts/"
+
+            [[languages.tr.menu.main]]
+            name = "Fotoğraflar"
+            pre = "<i class='fa fa-camera'></i>"
+            weight = 3
+            url = "photos/"
+
+            [[languages.tr.menu.main]]
+            name = "İletişim"
+            pre = "<i class='fa fa-envelope'> </i>"
+            weight = 4
+            url = "iletisim/"
+
+
+[markup.goldmark.renderer]
+unsafe = true # Allow HTML in md files
+disableToc = "false"

@@ -1,0 +1,47 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+
+<section>
+
+
+            {{ partial "breadcrumbs.html" . }}
+
+          <header>
+            <h1>{{ .Title }}</h1>
+          </header>
+
+     <div class="grid">
+
+    {{ range .Paginator.Pages }}
+      <div>
+        <article>
+
+                                          {{ if .Params.Image }}
+
+                                  <div class="card-img">
+                                      <a href="{{ .Permalink }}">
+
+                                          <img src="{{ .Params.Image | relURL }}" class="img-fluid" alt="">
+                                      </a>
+                                  </div>
+                                  <hgroup>
+                                   <h2>
+                                     <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                   </h2>
+                                  </hgroup>
+
+                                          {{ end }}
+
+        </article>
+      </div>
+{{ end }}
+
+        </div><!-- /.row -->
+                        <ul class="pagination">
+{{ template "_internal/pagination.html" . }}
+                        </ul>
+        </div><!-- /.container -->
+</section>
+{{ end }}
