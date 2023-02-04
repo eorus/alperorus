@@ -27,7 +27,7 @@
                       {{ range (default .Site.Home.AllTranslations .Translations) }}
                       {{ if ne $.Site.Language .Language }}
 
-                        <a class="mx-lg-3 btn btn-outline-danger btn-sm" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                        <a class="mx-lg-3 btn btn-danger btn-sm" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
 
                       {{ end }}
                       {{ end }}
