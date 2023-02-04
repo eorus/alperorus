@@ -4,22 +4,22 @@
 {{ define "main" }}
 
 <section>
-
-        <article class="post">
+        <article>
           <header>
+           {{ partial "breadcrumbs.html" . }}
             <h1>{{ .Title }}</h1>
             <div class="grid">
               <div> {{ range (.GetTerms "categories") }}
-             <kbd> <a class="secondary" href="{{ .Permalink }}">{{ .LinkTitle }}</a> </kbd>  {{ end }}
+             <a class="badge-pill" href="{{ .Permalink }}">{{ .LinkTitle }}</a>   {{ end }}
             </div>
 <div>
 {{ $date := .Date.Format "02.01.2006" }}
 {{ $lastmod := .Lastmod.Format "02.01.2006" }}
-<i class='fa fa-calendar'></i>
+<i class='bi bi-calendar-fill'></i>
 <time datetime="{{ $date }}">{{ $lastmod }}</time>
 </div>
 <div>
-  <i class="fas fa-clock"></i> Reading Time : {{ .ReadingTime }}min</div>
+  <i class="bi bi-clock-fill"></i> {{ i18n "reading_time" }} : {{ .ReadingTime }} {{ i18n "minute" }} </div>
           </header>
             {{ .Content }}
           <footer>
@@ -27,7 +27,7 @@
     {{- with .Params.tags -}}
         {{- if ge (len .) 1 -}}
             {{- range . -}}
-               <i class="fa fa-tags" aria-hidden="true"></i> <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}/">{{ . }}</a>
+               <i class="bi bi-tags" aria-hidden="true"></i> <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}/">{{ . }}</a>
             {{ end -}}
 
         {{- end -}}

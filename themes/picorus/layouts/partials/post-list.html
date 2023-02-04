@@ -1,15 +1,12 @@
 <section>
-    <hgroup>
-       <h2 class="fw-bolder">Güncel Yazılar</h2>
-        <p class="lead fw-normal text-muted mb-5">Son yazılarımdan bazıları</p>
-    </hgroup>
+       <h2>{{ i18n "recent_posts" }}</h2>
           {{ range first 3 $.Site.RegularPages }}
          <article id="article">
            <header>
            <a class="text-decoration-none link-dark stretched-link" href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
     <div class="grid">
               <div> {{ range (.GetTerms "categories") }}
-             <kbd> <a class="secondary" href="{{ .Permalink }}">{{ .LinkTitle }}</a> </kbd>  {{ end }}
+             <a class="badge-pill" href="{{ .Permalink }}">{{ .LinkTitle }}</a>   {{ end }}
             </div>
 <div>
 {{ $date := .Date.Format "02.01.2006" }}
@@ -18,16 +15,18 @@
 <time datetime="{{ $date }}">{{ $lastmod }}</time>
 </div>
 <div>
-  <i class="fas fa-clock"></i> Reading Time : {{ .ReadingTime }}min</div>
+  <i class="fas fa-clock"></i> {{ i18n "reading_time" }} : {{ .ReadingTime }} {{ i18n "minute" }}</div>
     </div>
            </header>
            {{ .Summary }}
-
+<a class="badge-btn" href="/posts/hugo-a-brand-new-approach-to-static-websites/" style="
+    float: right;
+    position: relative;
+    top: 2em;
+">{{ i18n "read_more" }}</a>
          </article>
 {{ end }}
 
-                            <div class="see-all-post col-12 text-center">
-              <span>deneme</span>
+              <a href="/posts" role="button">{{ i18n "all_posts" }}</a>
 
-          </div>
     </section>

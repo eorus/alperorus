@@ -5,7 +5,7 @@ title = "Alper Orus"
 theme = "orus"
 
 paginate = 6
-summarylength = 10
+summarylength = 25
 #sectionPagesMenu = "main"
 #disqusShortname = "xxxxxx"
 #googleAnalytics = "UA-181067611-1"

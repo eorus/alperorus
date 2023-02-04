@@ -20,7 +20,7 @@ Bir parçası olmamı istediğiniz bir projenin genel bir mesajını veya ayrın
 <div class="row justify-content-center m-2">
 <div class="col-12">
 <div class="p-2">
-          <h2 class="h4">İletişime Geçin</h2>
+          <h2>İletişime Geçin</h2>
 <div class="align-items-center">
 <div class="col-8 col-sm-12 text-left">
 
@@ -29,7 +29,7 @@ Bir parçası olmamı istediğiniz bir projenin genel bir mesajını veya ayrın
 </div>
 <div class="col-4 col-sm-12 text-center">
 
-<a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Eorus Websitesinden İletişim" class="btn btn-primary m-2">Bir Mesaj Gönderin ✉️</a>
+<a role=button href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Eorus Websitesinden İletişim" class="btn btn-primary m-2">Bir Mesaj Gönderin ✉️</a>
 </div>
 </div>
 </div>

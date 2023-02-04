@@ -10,7 +10,7 @@ tags:
   - Hugo
 
 series:
-  - Theme
+- Theme
 
 Image: "/images/hugo-static-site-generator.jpg"
 

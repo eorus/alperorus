@@ -2,22 +2,28 @@
 
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
 
-<div class="post-list__container">
+         <article>
+
   <ul class="post-list">
     {{ range .Pages }}
     <li class="post">
-      <div class="post__header">
+      <hgroup>
         <time class="post__date" datetime="{{ .Date }}"
           >{{ .Date.Format $dateFormat }}</time>
         <h2 class="post__title">
           <a href="{{.RelPermalink}}">{{ .Title }}</a>
         </h2>
-
-      </div>
+      </hgroup>
     </li>
     {{ end }}
   </ul>
-
-</div>
+                    <!-- Pagination-->
+                    <footer>
+                    <nav aria-label="Pagination">
+                        <hr>
+                        {{ template "_internal/pagination.html" . }}
+                    </nav>
+                    </footer>
+         </article>
 
 {{ end }}

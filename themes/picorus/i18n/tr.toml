@@ -1,0 +1,50 @@
+[prev_post]
+other = "Önceki Yazı"
+
+[next_post]
+other = "Sonraki Yazı"
+
+[notes]
+other = "Not aldığım konu başlıkları."
+
+[read_more]
+other = "Yazının Devamı"
+
+[recent_posts]
+other = "Güncel Yazılar"
+
+[all_posts]
+other = "Tüm Yazılar"
+
+[reading_time]
+other = "Okuma Süresi"
+
+[minute]
+other = "dk"
+
+[open_source]
+other = "Açık Kaynak"
+
+[open_source_t]
+other = "Linux işletim sistemi ve açık kaynak kodlu uygulamalar hakkında edindiğim tecrübeler."
+
+[productivity]
+other = "Verimlilik"
+
+[productivity_t]
+other = "Beslenme, spor, zaman yönetimi, meditasyon ve genel olarak hayat kalitesine etki eden her şey."
+
+[art]
+other = "Sanat"
+
+[art_t]
+other = "Fotoğrafçılık ve Sinema başta olmak üzere sanata dair konular."
+
+[quotes]
+other = "Alıntılar"
+
+[quotes_t]
+other = "İlham veren, motivasyonu artıran sözler."
+
+[quote]
+other = "Geçmişe bakıp zaman kaybetme, o yöne gitmiyorsun."

@@ -26,7 +26,7 @@ If you need a website for your business or you are looking for new freelance col
 </div>
 <div class="col-4 col-sm-12 text-center">
 
-<a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Contact From Eorus Website" class="btn btn-primary m-2">Write a Message ✉️</a>
+<a role=button href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Contact From Eorus Website" class="btn btn-primary m-2">Write a Message ✉️</a>
 </div>
 </div>
 </div>

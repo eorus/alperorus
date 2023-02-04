@@ -1,7 +1,6 @@
-<!-- Font Awesome icons (free version)-->
-<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 
- <!-- Compiled CSS Files -->
+
+<!-- Compiled CSS Files -->
 {{ $main_options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
 {{ $main_template := resources.Get "sass/style.scss" }}
 {{ $main_style := $main_template | resources.ExecuteAsTemplate "eorus_theme.scss" . | toCSS $main_options | resources.Minify }}

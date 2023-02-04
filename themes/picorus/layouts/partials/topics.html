@@ -1,30 +1,32 @@
-<h2>Not aldığım konu başlıkları.</h2>
+<section>
+<h2>{{ i18n "notes" }}</h2>
 <div class="grid">
-        <div><i class="fa fa-collection"></i>
-           <h2 class="h5">Açık Kaynak</h2>
-           <p>Linux işletim sistemi ve açık kaynak kodlu uygulamalar hakkında edindiğim tecrübeler.</p>
+        <div class="cards"><i class="bi-collection-fill" style="font-size: 2rem;color: red;display: flex;margin-right: 1rem;float: left;"></i>
+          <a href="/categories/open-source"><h3>{{ i18n "open_source" }}</h3></a>
+         <p>{{ i18n "open_source_t" }}</p>
         </div>
-        <div><i class="fa fa-building"></i>
-        <h2 class="h5">Verimlilik</h2>
-        <p>Beslenme, spor, zaman yönetimi, meditasyon ve genel olarak hayat kalitesine etki eden her şey.</p>
+        <div class="cards"><i class="bi-bag-heart-fill" style="font-size: 2rem;color: red;display: flex;margin-right: 1rem;float: left;"></i>
+          <a href="/categories/open-source"><h3>{{ i18n "productivity" }}</h3></a>
+          <p>{{ i18n "productivity_t" }}</p>
         </div>
 </div>
- <div class="grid">
-                                <div><i class="fa fa-toggles2"></i>
-                                    <h2 class="h5">Sanat</h2>
-                                    <p class="mb-0">Fotoğrafçılık ve Sinema başta olmak üzere sanata dair konular.</p>
-                                </div>
-                                <div><i class="fa fa-toggles2"></i>
-                                    <h2 class="h5">Alıntılar</h2>
-                                    <p class="mb-0">İlham veren, motivasyonu artıran sözler, alıntılar.
-                                    </p>
-                                </div>
+<div class="grid">
+         <div class="cards"><i class="bi-postcard-heart-fill" style="font-size: 2rem;color: red;display: flex;margin-right: 1rem;float: left;"></i>
+          <a href="/categories/open-source"><h3>{{ i18n "art" }}</h3></a>
+         <p>{{ i18n "art_t" }}</p>
+       </div>
+         <div class="cards"><i class="bi-chat-quote-fill" style="font-size: 2rem;color: red;display: flex;margin-right: 1rem;float: left;"></i>
+          <a href="/categories/open-source"><h3>{{ i18n "quotes" }}</h3></a>
+         <p>{{ i18n "quotes_t" }}</p>
+       </div>
 </div>
+</section>
 
+<section>
  <blockquote>
-  "Don't waste your time looking back, you're not going that way."
-  "Geçmişe bakıp zaman kaybetme, o yöne gitmiyorsun."
+  {{ i18n "quote" }}
   <footer>
     <cite>-  Ragnar Lothbrok</cite>
   </footer>
 </blockquote>
+</section>

@@ -2,39 +2,14 @@
 #
 baseurl = "https://alperor.us/"
 title = "Alper Orus"
-theme = "orus"
-
-paginate = 6
-summarylength = 25
-#sectionPagesMenu = "main"
-#disqusShortname = "xxxxxx"
-#googleAnalytics = "UA-181067611-1"
+theme = "picorus"
 languagecode = "en"
 defaultcontentlanguage = "tr"
 defaultcontentlanguageinsubdir = false
 
-[permalinks]
-    posts = "/posts/:year/:month/:slug/"
-    page = "/:slug/"
-
-#canonifyURLs = true
 enableRobotsTXT = true
-# Define the number of posts per page
-paginate = 10
-
-[readingTime]
-one = "One minute to read"
-other = "{{.Count}} minutes to read"
-
-[sitemap]
-    changefreq = "weekly"
-    priority = 0.5
-
-# Enable and disable widgets for the right sidebar
-[params.widgets]
-    categories = true
-    tags = true
-    search = true
+paginate = 6
+summarylength = 25
 
 [taxonomies]
   category = "categories"
@@ -42,39 +17,15 @@ other = "{{.Count}} minutes to read"
   series ="series"
 
 [params]
-    author = "Alper Orus"
-    avatarurl = "images/alper.jpg"
-    #gravatar = "john.doe@example.com"
-            info = "Front End Developer, Photographer, Blogger and a Passionate Linux Enthusiast"
-            hometext = "I’m a freelancer, entrepreneur. I usually write and generate content as a blogger about photography and camera industry. I also build websites or meet the digital transformation needs of companies."
-            homehello = "Hi I'm"
-            homebut = "Learn more about what I do"
-            description = "Alper Orus Personal Website"
-            keywords = "blog, photography, design, alper, personal, orus, eorus, linux, wordpress, hugo, frontend"
-            footercontent = "Fall in love with some activity, and do it! Nobody ever figures out what life is all about, and it doesn’t matter."
-    dateformat = "2 January 2006"
-    googleSiteVerification = "m0snGinntNZeCcUtR-3VL4xPM63J6sqyfvTmO9wFxOE"
-    mainSections = ["posts"]
-
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/eorus/"
-
-[[params.social]]
-    name = "Flickr"
-    icon = "fab fa-flickr fa-2x"
-    weight = 1
-    url = "https://www.flickr.com/photos/eorus/"
-
-[[params.social]]
-    name = "RSS"
-    icon = "fas fa-rss fa-2x"
-    weight = 2
-    url = "https://alperor.us/index.xml"
-    rel = "alternate"
-    type = "application/rss+xml"
+author = "Alper"
+description = "Alper Orus Personal Website"
+keywords = "blog, photography, design, alper, personal, orus, eorus, linux, wordpress, hugo, frontend"
+info = "Front End Developer, Photographer, Blogger and a Passionate Linux Enthusiast"
+footercontent = "Fall in love with some activity, and do it! Nobody ever figures out what life is all about, and it doesn’t matter."
+avatarURL = "images/avatar.jpg"
+dateFormat = "02.01.2006"
+since = 2019
+googleSiteVerification = "m0snGinntNZeCcUtR-3VL4xPM63J6sqyfvTmO9wFxOE"
 
 [languages]
     [languages.en]
@@ -85,35 +36,38 @@ other = "{{.Count}} minutes to read"
         [languages.en.menu]
 
             [[languages.en.menu.main]]
-            name = "About"
-            pre = "<i class='fa fa-user'></i>"
+            name = "Home"
+            pre = "<i class='bi bi-house-fill'> </i>"
             weight = 1
+            url = "/"
+
+            [[languages.en.menu.main]]
+            name = "About"
+            pre = "<i class='bi bi-person-fill'></i>"
+            weight = 4
             url = "about/"
 
             [[languages.en.menu.main]]
             name = "Blog"
-            pre = "<i class='fa fa-newspaper'></i>"
+            pre = "<i class='bi bi-journals'></i>"
             weight = 2
             url = "posts/"
 
             [[languages.en.menu.main]]
             name = "Photos"
-            pre = "<i class='fa fa-camera'></i>"
+            pre = "<i class='bi bi-camera-fill'></i>"
             weight = 3
             url = "photos/"
 
             [[languages.en.menu.main]]
             name = "Contact"
-            pre = "<i class='fa fa-envelope'></i>"
-            weight = 4
+            pre = "<i class='bi bi-envelope-fill'></i>"
+            weight = 5
             url = "contact/"
 
     [languages.tr]
         languagename = "TR"
         title = "Alper Orus"
-        hometext = "Serbest çalışan bir girişimciyim. Genellikle bir blog yazarı olarak fotoğrafçılık ve kamera endüstrisi hakkında yazıyorum. Ayrıca web siteleri yapıyorum ya da şirketlerin her anlamda dijital dönüşüm ihtiyaçlarını karşılıyorum."
-        homehello = "Merhaba Ben"
-        homebut = "Neler yaptığım hakında daha fazla bilgi edinin"
         contentDir = "content/tr"
         weight = 2
 
@@ -128,28 +82,41 @@ other = "{{.Count}} minutes to read"
 
 
             [[languages.tr.menu.main]]
-            name = "Hakkimda"
-            pre = "<i class='fa fa-user'> </i>"
+            name = "Ana Sayfa"
+            pre = "<i class='bi bi-house-fill'> </i>"
             weight = 1
+            url = "/"
+
+            [[languages.tr.menu.main]]
+            name = "Hakkimda"
+            pre = "<i class='bi bi-person-fill'> </i>"
+            weight = 4
             url = "hakkimda/"
 
             [[languages.tr.menu.main]]
             name = "Yazılar"
-            pre = "<i class='fa fa-newspaper'></i>"
+            pre = "<i class='bi bi-journals'></i>"
             weight = 2
             url = "posts/"
 
             [[languages.tr.menu.main]]
             name = "Fotoğraflar"
-            pre = "<i class='fa fa-camera'></i>"
+            pre = "<i class='bi bi-camera-fill'></i>"
             weight = 3
             url = "photos/"
 
             [[languages.tr.menu.main]]
             name = "İletişim"
-            pre = "<i class='fa fa-envelope'> </i>"
-            weight = 4
+            pre = "<i class='bi bi-envelope-fill'> </i>"
+            weight = 5
             url = "iletisim/"
+
+            [[languages.tr.menu.footer]]
+            name = "İletişim"
+            pre = "<i class='bi bi-envelope-fill'> </i>"
+            weight = 2
+            url = "iletisim/"
+
 
 [markup.goldmark.renderer]
 unsafe = true # Allow HTML in md files

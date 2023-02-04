@@ -1,22 +1,27 @@
-     <nav class="container">
-        <ul>
-          <li><a href="/" class="contrast"><strong>{{.Site.Title}}</strong></a></li>
-
+<nav class="container">
+       <ul>
+         <li><a href="/" class="contrast" ><strong>{{ .Site.Title}}</strong></a></li>
         </ul>
-
-
    {{ if or .Site.Menus.main .Site.IsMultiLingual }}
-        <ul>
+       <ul>
+
+        <li>
+            <details role="list" dir="ltr">
+              <summary aria-haspopup="listbox" role="link" class="contrast">Menu</summary>
+              <ul role="listbox">
         {{ with .Site.Menus.main}}
           {{ range sort . }}
-        <li>
-        <a class="nav-link" href="{{ .URL | relLangURL }}">
-          {{ .Pre }}
-          {{ .Name }}
-        </a>
-         </li>
+                <li>
+                <a class="nav-link" href="{{ .URL | relLangURL }}">
+                {{ .Pre }}
+                {{ .Name }}
+                </a>
+                </li>
           {{ end }}
         {{ end }}
+              </ul>
+            </details>
+          </li>
 
 
     {{ end }}
@@ -28,19 +33,18 @@
           {{ .Scratch.Set "separator" true }}
           {{ range (default .Site.Home.AllTranslations .Translations) }}
             {{ if ne $.Site.Language .Language }}
-<a href="{{ .Permalink }}" class="badge-btn" role="button">{{ .Language.LanguageName }}</a>
+<a href="{{ .Permalink }}"  role="button" class="badge-btn" style="
+    font-size: 10px;">{{ .Language.LanguageName }}</a>
 
             {{ end }}
           {{ end }}
         {{ end }}
           </li>
          <li>
-<div class="theme-switch-wrapper">
-    <label class="theme-switch" for="checkbox">
-        <input type="checkbox" id="checkbox" />
-        <div class="slider round"></div>
-  </label>
-</div>
+          <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" role="switch" checked="">
+                        <div class="slider round"></div>
+          </label>
           </li>
         </ul>
-      </nav>
+</nav>
