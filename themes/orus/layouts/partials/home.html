@@ -27,12 +27,12 @@
                           <picture>
                             <source srcset="/images/alper.webp" type="image/webp">
                             <source srcset="/images/alper.jpg" type="image/jpeg">
-                            <img width="900" height="600" class="img-fluid rounded-circle" src="{{ . | relURL }}" alt="Alper Orus Image">
+                            <img width="900" height="654" class="img-fluid rounded-circle" src="{{ . | relURL }}" alt="Alper Orus Image">
                           </picture>
                           {{ end }}
                           {{ end }}
                           {{ with .Site.Params.gravatar }}
-                          <div class="avatar"><img width="900" height="600" class="img-responsive rounded-circle" src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" alt="Alper Orus Image"></div>
+                          <div class="avatar"><img class="img-responsive rounded-circle" src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" alt="Alper Orus Image"></div>
                           {{ end }}
                         </div>
                     </div>
