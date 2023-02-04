@@ -33,8 +33,7 @@
           {{ .Scratch.Set "separator" true }}
           {{ range (default .Site.Home.AllTranslations .Translations) }}
             {{ if ne $.Site.Language .Language }}
-            <a href="{{ .Permalink }}"  role="button" class="badge-btn">{{ .Language.LanguageName }}</a>
-
+            <a href="{{ .Permalink }}"  role="button" class="btn btn-danger" style="font-size: 0.75rem;padding: 0 5px;">{{ .Language.LanguageName }}</a>
             {{ end }}
           {{ end }}
         {{ end }}
