@@ -1,11 +1,7 @@
 <!-- Template Main JS File -->
 
-{{ $js := resources.Get "js/jquery.min.js" | minify }}
-<script src="{{ $js.RelPermalink }}"></script>
 
 {{ $js := resources.Get "js/bootstrap.bundle.min.js" | minify }}
 <script src="{{ $js.RelPermalink }}"></script>
 {{ $js := resources.Get "js/main.js" | minify }}
 <script src="{{ $js.RelPermalink }}"></script>
-
-<script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js></script>

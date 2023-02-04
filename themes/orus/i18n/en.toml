@@ -1,0 +1,50 @@
+[prev_post]
+other = "Previous Post"
+
+[next_post]
+other = "Next Post"
+
+[notes]
+other = "Topics I took notes on."
+
+[read_more]
+other = "Continue Reading"
+
+[recent_posts]
+other = "Recent Posts"
+
+[all_posts]
+other = "All posts"
+
+[reading_time]
+other = "Reading Time"
+
+[minute]
+other = "min"
+
+[open_source]
+other = "Open Source"
+
+[open_source_t]
+other = "My experience about the Linux operating system and open source applications."
+
+[productivity]
+other = "Productivity"
+
+[productivity_t]
+other = "Nutrition, sports, time management, meditation and anything that affects quality of life in general."
+
+[art]
+other = "Art"
+
+[art_t]
+other = "Subjects related to art, especially photography and cinema."
+
+[quotes]
+other = "Quotes"
+
+[quotes_t]
+other = "Inspirational, motivational quotes."
+
+[quote]
+other = "Don't waste your time looking back, you're not going that way."

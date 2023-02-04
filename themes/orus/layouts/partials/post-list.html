@@ -4,39 +4,40 @@
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
                             <div class="text-center">
-                                <h2 class="fw-bolder">Güncel Yazılar</h2>
-                                <p class="lead fw-normal text-muted mb-5">Son yazılarımdan bazıları</p>
+                              <h2>{{ i18n "recent_posts" }}</h2>
                             </div>
                         </div>
                     </div>
                     <div class="row gx-5">
 
           {{ range first 2 $.Site.RegularPages }}
-  <div class="col-sm-6 my-4">
-    <div class="card shadow border-0">
+<div class="col-sm-6 my-4">
+    <div class="card shadow border-0 h-100">
       <div class="card-body p-4">
         <div class="rounded-pill mb-2">{{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}</div>
-        <a class="text-decoration-none stretched-link" href="{{ .Permalink }}"><h5 class="card-title mb-3">{{ .Title }}</h5></a>
-        <p class="card-text">{{ .Summary }}</p>
-
+        <a class="text-decoration-none stretched-link" href="{{ .Permalink }}"><h3 class="card-title mb-3">{{ .Title }}</h3></a>
    <div class="small">
       <div class="text-muted fst-italic mb-2 post-meta metadata">
         {{ $date := .Date.Format "02.01.2006" }}
         {{ $lastmod := .Lastmod.Format "02.01.2006" }}
-        <i class='fa fa-calendar'></i>
+        <i class='bi-calendar-fill'></i>
         <time datetime="{{ $date }}">{{ $lastmod }}</time>
-        <i class="fas fa-clock"></i> Reading Time : {{ .ReadingTime }}min
-      </div>
+         <i class="bi-clock-fill"></i> {{ i18n "reading_time" }} : {{ .ReadingTime }} {{ i18n "minute" }}</div>
    </div>
+        <p class="card-text">{{ .Summary }}</p>
+<a class="btn btn-primary btn-sm" href="/posts/hugo-a-brand-new-approach-to-static-websites/" style="
+    float: right;
+">{{ i18n "read_more" }}</a>
+
       </div>
     </div>
-  </div>
-                            {{ end }}
+ </div>
+
+        {{ end }}
 
                             <div class="see-all-post col-12 text-center">
             <a href="{{ "posts" | absURL }}" class="btn btn-primary">
-              <span>All Posts</span>
-            </a>
+              {{ i18n "all_posts" }}</a>
 
 
           </div>

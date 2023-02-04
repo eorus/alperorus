@@ -1,11 +1,10 @@
-<div class="text-muted fst-italic mb-2 post-meta metadata">
+<div class="text-muted fst-italic my-2 post-meta metadata">
 
-{{ $dateTime := .PublishDate.Format "2006-01-02" }}
-{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-<i class='fa fa-calendar'></i>
-<time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time> <span class="separator">•</span>
-<i class="fas fa-clock"></i>Reading Time : {{ .ReadingTime }}min
+{{ $date := .Date.Format "02.01.2006" }}
+{{ $lastmod := .Lastmod.Format "02.01.2006" }}
+<i class='bi-calendar-fill'></i>
+<time datetime="{{ $date }}">{{ $lastmod }}</time><span class="separator">•</span>
+<i class="bi-clock-fill"></i> {{ i18n "reading_time" }} : {{ .ReadingTime }} {{ i18n "minute" }}
 <!--<i class='fa fa-user'></i> <a href="/">{{ .Site.Params.author }}</a>  <span class="separator">•</span>-->
 
  </div>
-{{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}

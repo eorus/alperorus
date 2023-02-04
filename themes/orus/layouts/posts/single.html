@@ -13,6 +13,7 @@
 
 
             <header class="my-4">
+{{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
                 <!-- Post title-->
                 <h1 class="fw-bolder mb-1">{{ .Title }}</h1>
                 <!-- Post meta content-->
@@ -38,26 +39,7 @@
     {{- $.Scratch.Set "has_related" true -}}
 {{- end -}}
 
-{{ if $.Scratch.Get "has_related" }}
-    <div class="related-content">
-        <h3>Related Posts</h3>
-        <ul>
-            {{- $num_to_show := .Site.Params.related_content_limit | default 3 -}}
-            {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
-            <li>
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                &ndash;
-                <time datetime="{{ .Date.UTC.Format "2006-01-02T15:04:05-0700" }}">
-                    {{ .Date.Format "2 Jan 2006" }}
-                </time>
-                <br>
-                <small>{{ .Summary | plainify | htmlUnescape }}</small>
-            </li>
-          {{ end }}
-        </ul>
-        {{ partial "posts/series.html" . }}
-    </div>
-{{ end }}
+<footer>
         <div class="float-start share">
 
         {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}
@@ -65,16 +47,16 @@
         </div>
 
         <div class="float-end share">
-        <a href="http://twitter.com/share?url={{ .Permalink }}" title="Share on Twitter"><i class="fab fa-twitter fa-lg"></i></a>
-        <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" title="Share on Facebook"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="http://twitter.com/share?url={{ .Permalink }}" title="Share on Twitter"><i class="bi-twitter"></i></a>
+        <a href="http://www.facebook.com/sharer.php?u={{ .Permalink }}" title="Share on Facebook"><i class="bi-facebook fa-lg"></i></a>
         </div>
-
+</footer>
         </article>
       </div>
           <div class="posts-nav d-flex justify-content-between align-items-stretch flex-column flex-md-row mb-5">
                 {{ with .PrevInSection }}
                 <a class="prev-post text-start d-flex align-items-center" href="{{ .Permalink }}">
-                 <i class="fa fa-arrow-left"></i>
+                 <i class="bi bi-arrow-left"></i>
                  <div class="text"><strong class="text-danger">{{ .Title }}</strong>
                  </div>
                 </a>
@@ -83,7 +65,7 @@
                 {{ with .NextInSection }}
                 <a class="next-post text-end d-flex align-items-center justify-content-end" href="{{ .Permalink }}">
                   <div class="text"><strong class="text-danger">{{ .Title }}</strong>
-                  <i class="fa fa-arrow-right"></i>
+                  <i class="bi bi-arrow-right"></i>
                   </div>
                 </a>
                 {{ end }}

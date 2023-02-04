@@ -11,11 +11,11 @@
 <div>
 {{ $date := .Date.Format "02.01.2006" }}
 {{ $lastmod := .Lastmod.Format "02.01.2006" }}
-<i class='fa fa-calendar'></i>
+<i class='bi-calendar-fill'></i>
 <time datetime="{{ $date }}">{{ $lastmod }}</time>
 </div>
 <div>
-  <i class="fas fa-clock"></i> {{ i18n "reading_time" }} : {{ .ReadingTime }} {{ i18n "minute" }}</div>
+  <i class="bi-clock-fill"></i> {{ i18n "reading_time" }} : {{ .ReadingTime }} {{ i18n "minute" }}</div>
     </div>
            </header>
            {{ .Summary }}

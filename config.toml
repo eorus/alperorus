@@ -58,19 +58,19 @@ other = "{{.Count}} minutes to read"
 
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github fa-2x"
+    icon = "bi-github fa-2x"
     weight = 1
     url = "https://github.com/eorus/"
 
 [[params.social]]
     name = "Flickr"
-    icon = "fab fa-flickr fa-2x"
+    icon = "bi-image fa-2x"
     weight = 1
     url = "https://www.flickr.com/photos/eorus/"
 
 [[params.social]]
     name = "RSS"
-    icon = "fas fa-rss fa-2x"
+    icon = "bi-rss fa-2x"
     weight = 2
     url = "https://alperor.us/index.xml"
     rel = "alternate"
