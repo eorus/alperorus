@@ -54,15 +54,18 @@ googleSiteVerification = "m0snGinntNZeCcUtR-3VL4xPM63J6sqyfvTmO9wFxOE"
             url = "photos/"
 
             [[languages.en.menu.footer]]
-            name = "About"
-            pre = "<i class='bi bi-envelope-fill'> </i>"
+            name = "Source Code"
             weight = 1
+            url = "https://github.com/eorus/alperorus"
+
+            [[languages.en.menu.footer]]
+            name = "About"
+            weight = 2
             url = "about/"
 
             [[languages.en.menu.footer]]
             name = "Contact"
-            pre = "<i class='bi bi-envelope-fill'> </i>"
-            weight = 2
+            weight = 3
             url = "contact/"
 
     [languages.tr]
@@ -100,13 +103,18 @@ googleSiteVerification = "m0snGinntNZeCcUtR-3VL4xPM63J6sqyfvTmO9wFxOE"
             url = "photos/"
 
             [[languages.tr.menu.footer]]
-            name = "Hakkımda"
+            name = "Site Kodları"
             weight = 1
+            url = "https://github.com/eorus/alperorus"
+
+            [[languages.tr.menu.footer]]
+            name = "Hakkımda"
+            weight = 2
             url = "hakkimda/"
 
             [[languages.tr.menu.footer]]
             name = "İletişim"
-            weight = 2
+            weight = 3
             url = "iletisim/"
 
 
