@@ -6,7 +6,7 @@
         {{ with .Site.Menus.main}}
           {{ range sort . }}
                 <li>
-                <a class="nav-link" href="{{ .URL | relLangURL }}">
+                <a class="contrast nav-link" href="{{ .URL | relLangURL }}">
                 {{ .Pre }}
                 {{ .Name }}
                 </a>

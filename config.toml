@@ -36,19 +36,19 @@ googleSiteVerification = "m0snGinntNZeCcUtR-3VL4xPM63J6sqyfvTmO9wFxOE"
         [languages.en.menu]
 
             [[languages.en.menu.main]]
-            name = "Home"
+            name = "/home"
             pre =  '<svg width="32px" height="32px" viewBox="0 0 2050 2050" data-name="Layer 3" id="Layer_3" xmlns="http://www.w3.org/2000/svg" fill="#ff6161" stroke="#ff6161" stroke-width="0.0205"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:#ff6161;}</style></defs><title></title><path class="cls-1" d="M1600.8,827.6,1091.4,500.8a123.2,123.2,0,0,0-132.8,0L449.2,827.6a45,45,0,0,0,48.6,75.7l40.5-26v597.9a120.5,120.5,0,0,0,120.4,120.4H851.2a34.4,34.4,0,0,0,34.4-34.4V1409.8A139.4,139.4,0,0,1,1025,1270.4h0a139.4,139.4,0,0,1,139.4,139.4v151.4a34.4,34.4,0,0,0,34.4,34.4h192.5a120.5,120.5,0,0,0,120.4-120.4V877.3l40.5,26a45,45,0,0,0,48.6-75.7Z"></path></g></svg>'
             weight = 1
             url = "/"
 
             [[languages.en.menu.main]]
-            name = "Blog"
+            name = "/blog"
             pre =  '<svg width="32px" height="32px" viewBox="0 0 2050 2050" data-name="Layer 3" id="Layer_3" xmlns="http://www.w3.org/2000/svg" fill="#ff6161" stroke="#ff6161"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:#ff6161;}</style></defs><title></title><path class="cls-1" d="M503.6,1165.9a45,45,0,0,1-44.8-48.9l14.4-164.6a44.9,44.9,0,0,1,13-27.9L947.8,462.9a45.1,45.1,0,0,1,63.6,0l150.2,150.3a44.9,44.9,0,0,1,0,63.6L700,1138.4a44.4,44.4,0,0,1-27.9,13l-164.5,14.3Zm164.6-59.4Z"></path><path class="cls-1" d="M1560.8,1113.6H926.3a45,45,0,0,1,0-90h634.5a45,45,0,1,1,0,90Z"></path><path class="cls-1" d="M1560.8,1338.4H503.6a45,45,0,1,1,0-90H1560.8a45,45,0,0,1,0,90Z"></path><path class="cls-1" d="M1560.8,1563.2H503.6a45,45,0,0,1,0-90H1560.8a45,45,0,0,1,0,90Z"></path></g></svg>'
             weight = 2
             url = "posts/"
 
             [[languages.en.menu.main]]
-            name = "Photos"
+            name = "/photos"
             pre = '<svg width="32px" height="32px" viewBox="0 0 2050 2050" data-name="Layer 3" id="Layer_3" xmlns="http://www.w3.org/2000/svg" fill="#ff6161" stroke="#ff6161"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:#ff6161;}</style></defs><title></title><path class="cls-1" d="M696.3,1060.9l.3-.2a114.1,114.1,0,0,1,161.5,0l.6.5,85.7,88.7,204.9-204.8a114.3,114.3,0,0,1,161.5,0l275.3,275.7V654.6c0-113.4-92.3-205.7-205.7-205.7H669.6c-113.4,0-205.7,92.3-205.7,205.7v642.7ZM809.9,668.7a82.2,82.2,0,1,1-82.2,82.2A82.2,82.2,0,0,1,809.9,668.7Z"></path><path class="cls-1" d="M794.3,1124.1a24.3,24.3,0,0,0-34,.1L465.8,1423.6c13.8,100.2,99.9,177.5,203.8,177.5h585.8Z"></path><path class="cls-1" d="M1247.2,1008.7a24.5,24.5,0,0,0-34.3,0l-205.9,206,373.5,386.4c113.4,0,205.6-92.3,205.6-205.7v-47.2Z"></path></g></svg>'
             weight = 3
             url = "photos/"
@@ -85,19 +85,19 @@ googleSiteVerification = "m0snGinntNZeCcUtR-3VL4xPM63J6sqyfvTmO9wFxOE"
 
 
             [[languages.tr.menu.main]]
-            name = "Ana Sayfa"
+            name = "/ev"
             pre =  '<svg width="32px" height="32px" viewBox="0 0 2050 2050" data-name="Layer 3" id="Layer_3" xmlns="http://www.w3.org/2000/svg" fill="#ff6161" stroke="#ff6161" stroke-width="0.0205"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:#ff6161;}</style></defs><title></title><path class="cls-1" d="M1600.8,827.6,1091.4,500.8a123.2,123.2,0,0,0-132.8,0L449.2,827.6a45,45,0,0,0,48.6,75.7l40.5-26v597.9a120.5,120.5,0,0,0,120.4,120.4H851.2a34.4,34.4,0,0,0,34.4-34.4V1409.8A139.4,139.4,0,0,1,1025,1270.4h0a139.4,139.4,0,0,1,139.4,139.4v151.4a34.4,34.4,0,0,0,34.4,34.4h192.5a120.5,120.5,0,0,0,120.4-120.4V877.3l40.5,26a45,45,0,0,0,48.6-75.7Z"></path></g></svg>'
             weight = 1
             url = "/"
 
             [[languages.tr.menu.main]]
-            name = "Yazılar"
+            name = "/blog"
             pre =  '<svg width="32px" height="32px" viewBox="0 0 2050 2050" data-name="Layer 3" id="Layer_3" xmlns="http://www.w3.org/2000/svg" fill="#ff6161" stroke="#ff6161"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:#ff6161;}</style></defs><title></title><path class="cls-1" d="M503.6,1165.9a45,45,0,0,1-44.8-48.9l14.4-164.6a44.9,44.9,0,0,1,13-27.9L947.8,462.9a45.1,45.1,0,0,1,63.6,0l150.2,150.3a44.9,44.9,0,0,1,0,63.6L700,1138.4a44.4,44.4,0,0,1-27.9,13l-164.5,14.3Zm164.6-59.4Z"></path><path class="cls-1" d="M1560.8,1113.6H926.3a45,45,0,0,1,0-90h634.5a45,45,0,1,1,0,90Z"></path><path class="cls-1" d="M1560.8,1338.4H503.6a45,45,0,1,1,0-90H1560.8a45,45,0,0,1,0,90Z"></path><path class="cls-1" d="M1560.8,1563.2H503.6a45,45,0,0,1,0-90H1560.8a45,45,0,0,1,0,90Z"></path></g></svg>'
             weight = 2
             url = "posts/"
 
             [[languages.tr.menu.main]]
-            name = "Fotoğraflar"
+            name = "/fotolar"
             pre = '<svg width="32px" height="32px" viewBox="0 0 2050 2050" data-name="Layer 3" id="Layer_3" xmlns="http://www.w3.org/2000/svg" fill="#ff6161" stroke="#ff6161"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:#ff6161;}</style></defs><title></title><path class="cls-1" d="M696.3,1060.9l.3-.2a114.1,114.1,0,0,1,161.5,0l.6.5,85.7,88.7,204.9-204.8a114.3,114.3,0,0,1,161.5,0l275.3,275.7V654.6c0-113.4-92.3-205.7-205.7-205.7H669.6c-113.4,0-205.7,92.3-205.7,205.7v642.7ZM809.9,668.7a82.2,82.2,0,1,1-82.2,82.2A82.2,82.2,0,0,1,809.9,668.7Z"></path><path class="cls-1" d="M794.3,1124.1a24.3,24.3,0,0,0-34,.1L465.8,1423.6c13.8,100.2,99.9,177.5,203.8,177.5h585.8Z"></path><path class="cls-1" d="M1247.2,1008.7a24.5,24.5,0,0,0-34.3,0l-205.9,206,373.5,386.4c113.4,0,205.6-92.3,205.6-205.7v-47.2Z"></path></g></svg>'
             weight = 3
             url = "photos/"
