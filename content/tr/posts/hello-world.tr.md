@@ -3,13 +3,14 @@ title: "Merhaba Dünya"
 author: Alper Orus
 date:  2020-11-05T12:44:40+03:00
 draft: false
-categories:
-  - Blog
+topics:
+  - Productivity
 
 tags:
   - Hugo
+  - Website
 
-Image: "/images/blog.jpg"
+Image: "Merhaba, web siteme ve bloguma hoş geldiniz!"
 
 description: İlk Yazı
 ---

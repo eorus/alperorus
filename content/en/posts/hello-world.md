@@ -1,17 +1,18 @@
 ---
 title: "Hello World"
 author: Alper Orus
-date:  2020-11-05T12:44:40+03:00
+date:  2022-11-05T12:44:40+03:00
 draft: false
-categories:
-  - Blog
+topics:
+  - Productivity
 
 tags:
   - Hugo
+  - Website
 
 Image: "/images/blog.jpg"
 
-description: First Post
+description: Hi and welcome to my website and blog.
 ---
 
 Hi and welcome to my website and blog.

@@ -4,7 +4,7 @@ date: 2023-02-06T12:00:51+03:00
 title: "The Value of Doing Something Difficult"
 author: Alper Orus
 
-categories:
+topics:
   - Productivity
 
 tags:

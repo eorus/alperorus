@@ -2,11 +2,13 @@
 
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
 
-         <article>
+<section>
 
-  <ul class="post-list">
+
+  <div class="post-list">
+
     {{ range .Pages }}
-    <li class="post">
+    <article class="post" style=" padding: 2em;">
       <hgroup>
         <time class="post__date" datetime="{{ .Date }}"
           >{{ .Date.Format $dateFormat }}</time>
@@ -14,16 +16,17 @@
           <a href="{{.RelPermalink}}">{{ .Title }}</a>
         </h2>
       </hgroup>
-    </li>
+    </article>
     {{ end }}
-  </ul>
+
+  </div>
                     <!-- Pagination-->
-                    <footer>
+
                     <nav aria-label="Pagination">
                         <hr>
                         {{ template "_internal/pagination.html" . }}
                     </nav>
-                    </footer>
-         </article>
+
+</section>
 
 {{ end }}

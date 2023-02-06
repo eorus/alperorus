@@ -7,7 +7,7 @@
         <article>
           <header>
           {{ partial "breadcrumbs.html" . }}
-          {{ range (.GetTerms "categories") }}
+          {{ range (.GetTerms "topics") }}
           <mark> <a href="{{ .Permalink }}">{{ .LinkTitle }}</a></mark>
           {{ end }}
             <h1 style="margin: 1rem 0;">{{ .Title }}</h1>

@@ -5,7 +5,7 @@ title: "Zor Bir Şey Yapmanın Değeri"
 slug: doing-hard-things
 author: Alper Orus
 
-categories:
+topics:
   - Productivity
 
 tags:
