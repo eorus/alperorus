@@ -36,8 +36,9 @@ I develop interactive designs, using the latest technologies. I use my knowledge
 
 This site is :
 
-- Statically generated with Hugo.
-- Hosting provided by Netlify
-- Version control provided by GitHub.
+- Statically generated with Hugo
+- Hosting provided by [Cloudflare Pages](https://pages.cloudflare.com)
+- Version control provided by GitHub
 - Coded and written with NeoVim
-- Using a custom Hugo theme with Spectre CSS Framework
+- Using a custom [Hugo](https://gohugo.io/) theme with [Pico CSS Framework](https://picocss.com/)
+- [Source code](https://github.com/eorus/alperorus) of this site

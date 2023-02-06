@@ -37,7 +37,8 @@ Altyapı
 ---------
 
 * Hugo ile statik olarak oluşturulmuştur.
-* Hosting Netlify tarafından sağlanmaktadır.
+* Hosting [Cloudflare Pages](https://pages.cloudflare.com) tarafından sağlanmaktadır.
 * Sürüm kontrolü Github ile yapılmaktadır.
 * NeoVim ile kodlanmış ve yazılmıştır.
-* Spectre CSS kullanılarak hazırlanmış özel bir Hugo teması kullanılmaktadır.
+* [Pico CSS Framework](https://picocss.com/) kullanılarak hazırlanmış özel bir [Hugo](https://gohugo.io/) teması kullanılmaktadır.
+* Sitenin [kaynak kodları](https://github.com/eorus/alperorus)
