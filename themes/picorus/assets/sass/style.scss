@@ -25,7 +25,7 @@ $primary-700: #e64a19;
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 5px 0 #ddd;
-  background: var(--card-sectionning-background-color);
+    background: var(--card-sectionning-background-color);
     transition: all 0.3s ease-in-out;
     border-radius: 8px;
     z-index: 1;
@@ -96,7 +96,6 @@ grid-row-gap: 10px;
 article.post {
     margin: 0;
 }
-
 
 /* TOGGLE  */
 .theme-switch-wrapper {
@@ -209,4 +208,31 @@ input:checked + .slider .feather-sun {
 .kb-club-bg {
   background: #4caf50;
   color: #212121;
+}
+
+/* Pagenav */
+.paginav {
+   margin: 10px 0;
+   display: flex;
+   line-height: 30px;
+   border-radius: 5px;
+   padding: 10px;
+}
+
+.paginav span.title {
+  font-size: 15px;
+}
+
+.paginav .next {
+    margin-inline-start: auto;
+    text-align: end;
+    flex: 1 0 50%;
+}
+
+.paginav .prev, .paginav .next {
+    flex: 1 0 50%;
+}
+
+.paginav .prev:hover, .paginav .next:hover {
+      background: var(--card-background-color);
 }

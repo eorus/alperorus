@@ -26,6 +26,7 @@ avatarURL = "images/avatar.jpg"
 dateFormat = "02.01.2006"
 since = 2019
 googleSiteVerification = "m0snGinntNZeCcUtR-3VL4xPM63J6sqyfvTmO9wFxOE"
+mainSections = ["posts"]
 
 [languages]
     [languages.en]
