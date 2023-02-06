@@ -1,0 +1,56 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
+<section class="py-4 my-5">
+  <hgroup>
+        <h1>{{ .Title }}</h1>
+        <h2>
+          {{ .Params.description }}
+        </h2>
+  </hgroup>
+</section>
+
+<section>
+
+
+  <div id="post-list">
+
+     {{ range (.Paginator 6).Pages }}
+    <article class="post">
+           <header>
+
+           {{ range (.GetTerms "topics") }}
+              <mark> <a href="{{ .Permalink }}">{{ .LinkTitle }}</a></mark>
+           {{ end }}
+           <a class="text-decoration-none link-dark stretched-link" href="{{ .Permalink }}"><h3 style="margin: 1rem 0;">{{ .Title }}</h3>
+           </a>
+
+
+{{ $date := .Date.Format "02.01.2006" }}
+{{ $lastmod := .Lastmod.Format "02.01.2006" }}
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+</svg>
+<time datetime="{{ $date }}">{{ $lastmod }}</time>
+ <span class="separator">•</span>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+</svg>  {{ i18n "reading_time" }} : {{ .ReadingTime }} {{ i18n "minute" }}
+           </header>
+    </article>
+    {{ end }}
+
+  </div>
+                    <!-- Pagination-->
+
+                    <nav aria-label="Pagination">
+                        <hr>
+                        {{ template "_internal/pagination.html" . }}
+                    </nav>
+
+</section>
+
+{{ end }}

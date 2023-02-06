@@ -23,7 +23,7 @@
 </svg>  {{ i18n "reading_time" }} : {{ .ReadingTime }} {{ i18n "minute" }}
            </header>
            {{ .Summary }}
-<a aria-label="Read more" href="/posts/hugo-a-brand-new-approach-to-static-websites/" style="
+<a aria-label="Read more" href="{{ .Permalink }}" style="
     float: right;
     position: relative;
     top: 2em;

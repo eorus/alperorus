@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Alper Orus</title>
+    <link>https://alperor.us/series/</link>
+    <description>Recent content in Series on Alper Orus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 05 Dec 2020 18:18:06 +0300</lastBuildDate><atom:link href="https://alperor.us/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theme</title>
+      <link>https://alperor.us/series/theme/</link>
+      <pubDate>Sat, 05 Dec 2020 18:18:06 +0300</pubDate>
+      
+      <guid>https://alperor.us/series/theme/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

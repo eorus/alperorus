@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Alper Orus</title>
+    <link>https://alperor.us/tags/hugo/</link>
+    <description>Recent content in Hugo on Alper Orus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 05 Dec 2020 18:18:06 +0300</lastBuildDate><atom:link href="https://alperor.us/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo : Statik Web Sitelerine Yepyeni Bir Yaklaşım</title>
+      <link>https://alperor.us/posts/hugo-a-brand-new-approach-to-static-websites/</link>
+      <pubDate>Sat, 05 Dec 2020 18:18:06 +0300</pubDate>
+      
+      <guid>https://alperor.us/posts/hugo-a-brand-new-approach-to-static-websites/</guid>
+      <description>Son zamanlarda statik siteler birçok nedenden dolayı popüler olmaya ve gelişmeye devam ediyor. Bunun başlıca sebebini hantallaşmaya başlamış internetin neredeyse ilk zamanlarındaki sadeliği özlemesi olarak yorumlayabiliriz.</description>
+    </item>
+    
+    <item>
+      <title>Merhaba Dünya</title>
+      <link>https://alperor.us/posts/hello-world/</link>
+      <pubDate>Thu, 05 Nov 2020 12:44:40 +0300</pubDate>
+      
+      <guid>https://alperor.us/posts/hello-world/</guid>
+      <description>Merhaba, web siteme ve bloguma hoş geldiniz!
+Uzun bir süre sonra, çalışmalarımı toplamak için kendi sitemi ve blogumu açmanın ve notlarımdan özellikle yararlı olabileceğini düşündüğüm makaleleri paylaşmanın iyi olacağını düşündüm.</description>
+    </item>
+    
+  </channel>
+</rss>

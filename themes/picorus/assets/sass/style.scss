@@ -97,6 +97,15 @@ article.post {
     margin: 0;
 }
 
+#post-list article.post {
+    margin-bottom: 1em;
+    background: none !important;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    height: 250px;
+    display: block;
+}
+
 /* TOGGLE  */
 .theme-switch-wrapper {
   display: flex;

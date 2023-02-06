@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website on Alper Orus</title>
+    <link>https://alperor.us/tags/website/</link>
+    <description>Recent content in Website on Alper Orus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Nov 2020 12:44:40 +0300</lastBuildDate><atom:link href="https://alperor.us/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Merhaba Dünya</title>
+      <link>https://alperor.us/posts/hello-world/</link>
+      <pubDate>Thu, 05 Nov 2020 12:44:40 +0300</pubDate>
+      
+      <guid>https://alperor.us/posts/hello-world/</guid>
+      <description>Merhaba, web siteme ve bloguma hoş geldiniz!
+Uzun bir süre sonra, çalışmalarımı toplamak için kendi sitemi ve blogumu açmanın ve notlarımdan özellikle yararlı olabileceğini düşündüğüm makaleleri paylaşmanın iyi olacağını düşündüm.</description>
+    </item>
+    
+  </channel>
+</rss>

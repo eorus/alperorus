@@ -5,7 +5,7 @@
     {{- partial "head.html" . -}}
   </head>
 
-    <body>
+    <body class="{{ .Type }} {{ with .File }}{{ .TranslationBaseName }}{{ end }}">
         {{- partial "header.html" . -}}
         <main class="container">
         {{- block "main" . }}{{- end }}

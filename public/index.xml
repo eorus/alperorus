@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alper Orus</title>
+    <link>https://alperor.us/</link>
+    <description>Recent content on Alper Orus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Feb 2023 12:00:51 +0300</lastBuildDate><atom:link href="https://alperor.us/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zor Bir Şey Yapmanın Değeri</title>
+      <link>https://alperor.us/posts/doing-hard-things/</link>
+      <pubDate>Mon, 06 Feb 2023 12:00:51 +0300</pubDate>
+      
+      <guid>https://alperor.us/posts/doing-hard-things/</guid>
+      <description>İşleri zor yoldan yapmak, daha iyi öğrenmeyi sağlayabilir. Yeni ve zorlu bir aktivite gerçekleştirmek, bilişsel becerileri geliştirmek ve sürdürmek için iyi bir yoldur.
+İşleri zor yoldan yapmak ilk bakışta mantıksız görünebilir.</description>
+    </item>
+    
+    <item>
+      <title>Hugo : Statik Web Sitelerine Yepyeni Bir Yaklaşım</title>
+      <link>https://alperor.us/posts/hugo-a-brand-new-approach-to-static-websites/</link>
+      <pubDate>Sat, 05 Dec 2020 18:18:06 +0300</pubDate>
+      
+      <guid>https://alperor.us/posts/hugo-a-brand-new-approach-to-static-websites/</guid>
+      <description>Son zamanlarda statik siteler birçok nedenden dolayı popüler olmaya ve gelişmeye devam ediyor. Bunun başlıca sebebini hantallaşmaya başlamış internetin neredeyse ilk zamanlarındaki sadeliği özlemesi olarak yorumlayabiliriz.</description>
+    </item>
+    
+    <item>
+      <title>Merhaba Dünya</title>
+      <link>https://alperor.us/posts/hello-world/</link>
+      <pubDate>Thu, 05 Nov 2020 12:44:40 +0300</pubDate>
+      
+      <guid>https://alperor.us/posts/hello-world/</guid>
+      <description>Merhaba, web siteme ve bloguma hoş geldiniz!
+Uzun bir süre sonra, çalışmalarımı toplamak için kendi sitemi ve blogumu açmanın ve notlarımdan özellikle yararlı olabileceğini düşündüğüm makaleleri paylaşmanın iyi olacağını düşündüm.</description>
+    </item>
+    
+    <item>
+      <title>Doğa Fotoğrafları</title>
+      <link>https://alperor.us/photos/doga-fotograflari/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperor.us/photos/doga-fotograflari/</guid>
+      <description>Doğa ve hayvan fotoğraf çalışmalarımdan bazılarını bu sayfada bulabilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>Siyah Beyaz Fotoğraflar</title>
+      <link>https://alperor.us/photos/siyah-beyaz-fotograflar/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperor.us/photos/siyah-beyaz-fotograflar/</guid>
+      <description>Siyah beyaz fotoğraf çalışmalarımdan bazılarını bu sayfada bulabilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>Manzara Fotoğrafları</title>
+      <link>https://alperor.us/photos/manzara-fotograflari/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperor.us/photos/manzara-fotograflari/</guid>
+      <description>Manzara Fotoğrafları çekimlerimden oluşan karelerden bazılarını bu sayfada bulabilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>Şehir ve Yaşam Fotoğrafları</title>
+      <link>https://alperor.us/photos/sehir-ve-yasam/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperor.us/photos/sehir-ve-yasam/</guid>
+      <description>Şehir ve yaşama ilişkin fotoğraf çalışmalarımdan bazılarını bu sayfada bulabilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>Hakkımda</title>
+      <link>https://alperor.us/hakkimda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperor.us/hakkimda/</guid>
+      <description>Merhaba, ben Alper! Serbest çalışan bir girişimciyim. Genellikle bir blog yazarı olarak içerik yazar ve üretirim. Web üzerinde birkaç sitem ve büyük kamera gruplarım var. Fotoğrafçılık ve kamera endüstrisi hakkında yazıyorum.</description>
+    </item>
+    
+    <item>
+      <title>İletişim</title>
+      <link>https://alperor.us/iletisim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alperor.us/iletisim/</guid>
+      <description>Haydi Birlikte Bir Şeyler Yapalım Eğer paylaşmak istediğiniz ilginç bir konu, proje veya girişim varsa benimle iletişime geçmekten çekinmeyin. Bir parçası olmamı istediğiniz bir projenin genel bir mesajını veya ayrıntılarını gönderin, mümkün olan en kısa sürede size geri döneceğim.</description>
+    </item>
+    
+  </channel>
+</rss>

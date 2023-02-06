@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivity on Alper Orus</title>
+    <link>https://alperor.us/topics/productivity/</link>
+    <description>Recent content in Productivity on Alper Orus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Feb 2023 12:00:51 +0300</lastBuildDate><atom:link href="https://alperor.us/topics/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zor Bir Şey Yapmanın Değeri</title>
+      <link>https://alperor.us/posts/doing-hard-things/</link>
+      <pubDate>Mon, 06 Feb 2023 12:00:51 +0300</pubDate>
+      
+      <guid>https://alperor.us/posts/doing-hard-things/</guid>
+      <description>İşleri zor yoldan yapmak, daha iyi öğrenmeyi sağlayabilir. Yeni ve zorlu bir aktivite gerçekleştirmek, bilişsel becerileri geliştirmek ve sürdürmek için iyi bir yoldur.
+İşleri zor yoldan yapmak ilk bakışta mantıksız görünebilir.</description>
+    </item>
+    
+    <item>
+      <title>Merhaba Dünya</title>
+      <link>https://alperor.us/posts/hello-world/</link>
+      <pubDate>Thu, 05 Nov 2020 12:44:40 +0300</pubDate>
+      
+      <guid>https://alperor.us/posts/hello-world/</guid>
+      <description>Merhaba, web siteme ve bloguma hoş geldiniz!
+Uzun bir süre sonra, çalışmalarımı toplamak için kendi sitemi ve blogumu açmanın ve notlarımdan özellikle yararlı olabileceğini düşündüğüm makaleleri paylaşmanın iyi olacağını düşündüm.</description>
+    </item>
+    
+  </channel>
+</rss>

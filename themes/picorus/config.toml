@@ -69,6 +69,11 @@ mainSections = ["posts"]
             weight = 3
             url = "contact/"
 
+            [[languages.en.menu.footer]]
+            name = "Archive"
+            weight = 4
+            url = "archive/"
+
     [languages.tr]
         languagename = "TR"
         title = "Alper Orus"
@@ -117,6 +122,11 @@ mainSections = ["posts"]
             name = "İletişim"
             weight = 3
             url = "iletisim/"
+
+            [[languages.tr.menu.footer]]
+            name = "Arşiv"
+            weight = 4
+            url = "archive/"
 
 
 [markup.goldmark.renderer]
