@@ -24,7 +24,7 @@ $primary-700: #e64a19;
     padding: 30px 20px;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 5px 0 #ddd;
+    box-shadow: 0 0 5px var(--color);
     background: var(--card-sectionning-background-color);
     transition: all 0.3s ease-in-out;
     border-radius: 8px;
