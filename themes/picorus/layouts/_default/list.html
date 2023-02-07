@@ -3,6 +3,21 @@
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
 
 <section>
+  <hgroup>
+        <h1>{{- if eq .Kind "term" -}}
+            {{- i18n .Data.Singular | title -}}
+            {{- print ": " -}}
+            {{- end -}}
+            {{- .Title -}}
+        </h1>
+        <h2>
+          {{ .Params.description }}
+        </h2>
+  </hgroup>
+</section>
+
+
+<section>
 
 
   <div class="post-list">
