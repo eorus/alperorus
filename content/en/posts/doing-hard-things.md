@@ -1,24 +1,14 @@
----
-draft: false
-date: 2023-02-06T12:00:51+03:00
-title: "The Value of Doing Something Difficult"
-author: Alper Orus
-
-topics:
-  - Productivity
-
-tags:
-  - Habits
-  - Mental Health
-  - Thinking
-
-# series:
-  -
-
-description: Doing things the hard way can lead to better learning. Performing a new and challenging activity is a good way to develop and maintain cognitive skills.
-
-#Image: "/images/hugo-static-site-generator.jpg"
----
++++
+draft = false
+date = 2023-02-06T12:00:51+03:00
+title= "The Value of Doing Something Difficult"
+slug = "doing-hard-things"
+author = ["Alper"]
+topics = ["Productivity"]
+tags = ["Habits", "Mental Health", "Thinking"]
+# series = []
+description = "Doing things the hard way can lead to better learning. Performing a new and challenging activity is a good way to develop and maintain cognitive skills."
++++
 
 Doing things the hard way can lead to better learning. Performing a new and challenging activity is a good way to develop and maintain cognitive skills.
 

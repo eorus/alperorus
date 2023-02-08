@@ -1,19 +1,15 @@
----
-title: "Hello World"
-author: Alper Orus
-date:  2022-11-05T12:44:40+03:00
-draft: false
-topics:
-  - Productivity
++++
+draft = false
+date = 2022-11-05T12:44:40+03:00
+title= "Hello World"
+slug = "hello-world"
+author = ["Alper"]
+topics = ["Productivity"]
+tags = ["Hugo", "Website", "Blog"]
+# series = []
+description = "Hi and welcome to my website and blog."
++++
 
-tags:
-  - Hugo
-  - Website
-
-Image: "/images/blog.jpg"
-
-description: Hi and welcome to my website and blog.
----
 
 Hi and welcome to my website and blog.
 

@@ -1,21 +1,13 @@
----
-title: "Hugo : A Brand New Approach to Static Websites"
-author: Alper Orus
-date:  2022-12-05T18:18:06+03:00
-draft: false
-topics:
-  - Open Source
-
-tags:
-  - Hugo
-
-series:
-  - Theme
-
-Image: "/images/hugo-static-site-generator.jpg"
-
-description: In this guide, I will try to explain the benefits of static site builder Hugo for the various workflows it provides.
----
++++
+date = "2022-12-05T18:18:06+03:00"
+title = "Hugo : A Brand New Approach to Static Websites"
+author = ["Alper"]
+topics = ["Productivity"]
+tags = ["Hugo", "Website", "Blog"]
+series = ["Theme"]
+Image= "/images/hugo-static-site-generator.jpg"
+description= "In this guide, I will try to explain the benefits of static site builder Hugo for the various workflows it provides."
++++
 
 **Static sites** have been getting popular and improving lately for many reasons. The main reason for this is that the internet, which has started to become cumbersome, misses the simplicity of the early days.
 
