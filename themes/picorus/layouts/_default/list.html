@@ -2,8 +2,8 @@
 
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
 
-<section>
-  <hgroup>
+<section class="topics">
+  <header>
         <h1>{{- if eq .Kind "term" -}}
             {{- i18n .Data.Singular | title -}}
             {{- print ": " -}}
@@ -13,7 +13,7 @@
         <h2>
           {{ .Params.description }}
         </h2>
-  </hgroup>
+  </header>
 </section>
 
 

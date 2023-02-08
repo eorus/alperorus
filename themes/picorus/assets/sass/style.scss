@@ -17,8 +17,34 @@ $primary-700: #e64a19;
 // Import Pico
 @import "../node_modules/@picocss/pico/scss/pico";
 
+body>main {
+   padding: 0;
+}
 
 /* Addon Css Styles */
+
+body>footer ul {
+   margin: 0;
+   text-align:center;
+}
+
+body>footer li {
+    display: inline-block;
+}
+
+body>footer li:not(:first-child)::before {
+    margin: 0 0.25rem;
+    content: "·";
+}
+
+footer {
+  background: var(--card-background-color);
+}
+
+section.topics  {
+    padding: calc(var(--block-spacing-vertical) * .66)var(--block-spacing-horizontal);
+    margin: 0;
+}
 
 .cards {
     padding: 30px 20px;
@@ -46,44 +72,8 @@ article nav li {
   padding: 0 0 1rem 0;
 }
 
-#hakkinda hgroup {
-    text-align: center;
-}
-#hakkinda hgroup, header h1, header p {
-    max-width: 60ch;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-#hakkinda hgroup h2 {
-    margin-bottom: var(--spacing);
-}
 
-h2:after {
-    display: block;
-    max-width: 100px;
-    margin-top: 1rem;
-    border-bottom: 0.125rem solid var(--primary);
-    content: "";
-}
-
-body>footer ul {
-   margin: 0;
-   text-align:center;
-}
-
-body>footer li {
-    display: inline-block;
-}
-
-body>footer li:not(:first-child)::before {
-    margin: 0 0.25rem;
-    content: "·";
-}
-
-footer {
-  background: var(--card-background-color);
-}
 
 .parent {
 display: grid;
@@ -93,6 +83,17 @@ grid-column-gap: 30px;
 grid-row-gap: 10px;
 }
 
+section#post-single hgroup {
+    margin-top: calc(var(--block-spacing-vertical) * -1);
+    margin-bottom: var(--block-spacing-horizontal);
+    border-bottom: var(--border-width)solid var(--card-border-color);
+    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+    margin-right: calc(var(--block-spacing-horizontal) * -1);
+    margin-left: calc(var(--block-spacing-horizontal) * -1);
+    padding: calc(var(--block-spacing-vertical) * .66)var(--block-spacing-horizontal);
+    background-color: var(--card-sectionning-background-color);
+}
 
 article.post {
     margin: 0;
@@ -105,6 +106,37 @@ article.post {
     z-index: 1;
     height: 250px;
     display: block;
+}
+
+/* Header */
+.hero {
+    background-color: var(--card-background-color);
+    background-position: 50%;
+    background-size: cover;
+    border-bottom: 2px solid var(--secondary);
+    box-shadow: var(--card-box-shadow);
+    margin-bottom: var(--block-spacing-vertical);
+}
+
+header {
+  padding: var(--spacing-company) 0;
+}
+
+header hgroup > :last-child {
+  color: var(--h3-color);
+}
+
+header hgroup {
+  margin-bottom: var(--spacing-company);
+}
+
+#hakkinda {
+    padding: var(--block-spacing-vertical);
+    background: var(--card-background-color);
+}
+
+#hakkinda hgroup {
+    text-align: center;
 }
 
 /* TOGGLE  */
