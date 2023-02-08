@@ -2,7 +2,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light dark">
 
-{{ with .Site.Params.googlesiteverification }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+{{- if site.Params.googlesiteverification }}
+<meta name="google-site-verification" content="{{ site.Params.googlesiteverification }}">
+{{- end }}
+{{- if site.Params.yandexsiteverification }}
+<meta name="yandex-verification" content="{{ site.Params.yandexsiteverification }}">
+{{- end }}
+{{- if site.Params.bingsiteverification }}
+<meta name="msvalidate.01" content="{{ site.Params.bingsiteverification }}">
+{{- end }}
+
 
 {{ with .Site.Params.author }}
 <meta name="author" content="{{ . }}">
