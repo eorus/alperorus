@@ -1,25 +1,14 @@
----
-draft: false
-date: 2023-02-06T12:00:51+03:00
-title: "Zor Bir Şey Yapmanın Değeri"
-slug: doing-hard-things
-author: Alper Orus
-
-topics:
-  - Productivity
-
-tags:
-  - Habits
-  - Mental Health
-  - Thinking
-
-# series:
-  -
-
-description: İşleri Zor Yoldan Yapmak, Daha İyi Öğrenmeyi Sağlayabilir. Yeni ve zorlu bir aktivite gerçekleştirmek, bilişsel becerileri geliştirmek ve sürdürmek için iyi bir yoldur.
-
-#Image: "/images/hugo-static-site-generator.jpg"
----
++++
+draft = false
+date = 2023-02-06T12:00:51+03:00
+title= "Zor Bir Şey Yapmanın Değeri"
+slug = "doing-hard-things"
+author = ["Alper"]
+topics = ["Productivity"]
+tags = ["Habits", "Mental Health"]
+# series = []
+description = "İşleri Zor Yoldan Yapmak, Daha İyi Öğrenmeyi Sağlayabilir. Yeni ve zorlu bir aktivite gerçekleştirmek, bilişsel becerileri geliştirmek ve sürdürmek için iyi bir yoldur."
++++
 
 İşleri zor yoldan yapmak, daha iyi öğrenmeyi sağlayabilir. Yeni ve zorlu bir aktivite gerçekleştirmek, bilişsel becerileri geliştirmek ve sürdürmek için iyi bir yoldur.
 

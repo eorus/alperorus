@@ -1,21 +1,13 @@
----
-title: "Hugo : Statik Web Sitelerine Yepyeni Bir Yaklaşım"
-author: Alper Orus
-date:  2022-12-05T18:18:06+03:00
-draft: false
-topics:
-  - Open Source
-
-tags:
-  - Hugo
-
-series:
-- Theme
-
-Image: "/images/hugo-static-site-generator.jpg"
-
-description: Bu kılavuzda, statik site oluşturucusu Hugo'nun sağladığı çeşitli iş akışları için faydaları hakkında bilgiler vermeye çalışacağım.
----
++++
+date = "2022-12-05T18:18:06+03:00"
+title = "Hugo : Statik Web Sitelerine Yepyeni Bir Yaklaşım"
+author = ["Alper"]
+topics = ["Open Source"]
+tags = ["Hugo", "Website", "Blog"]
+series = ["Theme"]
+Image= "/images/hugo-static-site-generator.jpg"
+description= "Bu kılavuzda, statik site oluşturucusu Hugo'nun sağladığı çeşitli iş akışları için faydaları hakkında bilgiler vermeye çalışacağım."
++++
 
 Son zamanlarda **statik siteler** birçok nedenden dolayı popüler olmaya ve gelişmeye devam ediyor. Bunun başlıca sebebini hantallaşmaya başlamış internetin neredeyse ilk zamanlarındaki sadeliği özlemesi olarak yorumlayabiliriz.
 

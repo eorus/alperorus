@@ -5,7 +5,7 @@ title= "The Value of Doing Something Difficult"
 slug = "doing-hard-things"
 author = ["Alper"]
 topics = ["Productivity"]
-tags = ["Habits", "Mental Health", "Thinking"]
+tags = ["Habits", "Mental Health"]
 # series = []
 description = "Doing things the hard way can lead to better learning. Performing a new and challenging activity is a good way to develop and maintain cognitive skills."
 +++

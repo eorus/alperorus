@@ -1,26 +1,14 @@
----
-draft: false
-date: 2023-02-07T18:03:22+03:00
-title: "Jamstack Sitemi Hugo, Cloudflare Pages ve Git ile Nasıl Oluşturdum?"
-slug: my-jamstack-site-hugo-pico
-author: Alper Orus
-
-topics:
-  - Open Source
-
-tags:
-  - Hugo
-  - Pico
-  - Jamstack
-  - Kiss
-
-# series:
-  -
-
-description: Bu yazıda, sitede bahsedeceğim konulardan ziyade Hugo, Cloudflare Pages ve Git ile bu siteyi nasıl oluşturduğum ve zamanla eklemek istediğim yeni işlevler için bir giriş yapacağım.
-
-#Image: "/images/hugo-static-site-generator.jpg"
----
++++
+draft = false
+date = "2023-02-07T18:03:22+03:00"
+title = "Jamstack Sitemi Hugo, Cloudflare Pages ve Git ile Nasıl Oluşturdum?"
+slug = "my-jamstack-site-hugo-pico"
+author = ["Alper"]
+topics = ["Open Source"]
+tags = ["Hugo", "Website", "Pico", "Jamstack", "Blog", "Kiss" ]
+series = ["Theme"]
+description= "Bu yazıda, sitede bahsedeceğim konulardan ziyade Hugo, Cloudflare Pages ve Git ile bu siteyi nasıl oluşturduğum ve zamanla eklemek istediğim yeni işlevler için bir giriş yapacağım."
++++
 
 Uzun zamandır, biriktirdiğim notlarımı aktarmak ve tecrübelerimi paylaşmak için bir site oluşturmak istiyordum. Yıllardır ertelediğim bu işi, hem gelişmekte olan [Jamstack](https://jamstack.org) trendine uyum sağlamak, hem de bu vesileyle *semantic html* yapısına uyan, tamamen kendi üretimim bir tema yaratarak yapmak önemli iki noktaydı.
 
