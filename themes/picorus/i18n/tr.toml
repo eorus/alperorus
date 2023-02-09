@@ -40,11 +40,11 @@ other = "Sanat"
 [art_t]
 other = "Fotoğrafçılık ve Sinema başta olmak üzere sanata dair konular."
 
-[quotes]
-other = "Alıntılar"
+[thoughts]
+other = "Rastgele Düşünceler"
 
-[quotes_t]
-other = "İlham veren, motivasyonu artıran sözler."
+[thoughts_t]
+other = "Rastgele düşünceler, fikirler, beyin fırtınası ve ilham kaynağı alıntılar. "
 
 [quote]
 other = "Geçmişe bakıp zaman kaybetme, o yöne gitmiyorsun."

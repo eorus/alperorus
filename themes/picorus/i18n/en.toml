@@ -40,11 +40,11 @@ other = "Art"
 [art_t]
 other = "Subjects related to art, especially photography and cinema."
 
-[quotes]
-other = "Quotes"
+[thoughts]
+other = "Random Thoughts"
 
-[quotes_t]
-other = "Inspirational, motivational quotes."
+[thoughts_t]
+other = "Random thoughts, ideas, brainstorming and inspirational quotes."
 
 [quote]
 other = "Don't waste your time looking back, you're not going that way."
