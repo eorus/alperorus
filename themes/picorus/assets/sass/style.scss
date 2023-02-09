@@ -50,10 +50,11 @@ section.topics  {
     padding: 30px 20px;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 5px var(--color);
-    background: var(--card-sectionning-background-color);
-    transition: all 0.3s ease-in-out;
-    border-radius: 8px;
+    box-shadow: 0 0 3rem var(--card-border-color);
+    background: var(--code-kbd-color);
+    transition: all .3s ease-in-out;
+    border-radius: 8px var(--block-spacing-vertical);
+    border: 2px solid var(--primary);
     z-index: 1;
     margin-bottom: 2rem;
 }
@@ -71,9 +72,6 @@ mark {
 article nav li {
   padding: 0 0 1rem 0;
 }
-
-
-
 
 .parent {
 display: grid;
@@ -132,7 +130,8 @@ header hgroup {
 
 #hakkinda {
     padding: var(--block-spacing-vertical);
-    background: var(--card-background-color);
+    background: var(--code-kbd-color);
+    box-shadow: 0 0 3rem var(--progress-background-color);
 }
 
 #hakkinda hgroup {
