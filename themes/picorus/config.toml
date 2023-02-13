@@ -10,6 +10,8 @@ defaultcontentlanguageinsubdir = false
 enableRobotsTXT = true
 paginate = 6
 summarylength = 25
+disqusShortname = "alperor-us" # Enable Disqus comments by entering your Disqus shortname
+
 
 [taxonomies]
   category = "topics"
