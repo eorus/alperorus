@@ -8,6 +8,12 @@ tags = ["Fediverse", "Decentralization", "Web 3.0"]
 topics = ["Open Source", "Thoughts"]
 # series = []
 description = "What exactly do we have to think about when we say Fediverse? How does it work today at the point where the Internet evolved?"
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109869413697208038
+
 +++
 
 **Fediverse** is a collection of consolidated servers used for social media, web publishing, file hosting and other modern web activities, but able to communicate with each other while hosted independently. In this way, users can create so-called identities on different servers. The name is derived from the words "*federation*" and "*universe*".

@@ -8,6 +8,13 @@ tags = ["Fediverse", "Decentralization", "Web 3.0"]
 topics = ["Open Source", "Thoughts"]
 # series = []
 description = "Fediverse dendiğinde tam olarak ne düşünmemiz gerekiyor? İnternet'in evrildiği noktada bugün tam olarak nasıl çalışmaktadır?"
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109869413697208038
+
+
 +++
 
 **Fediverse**, sosyal medya, web yayıncılığı, dosya barındırma ve diğer modern web etkinlikleri için kullanılan, ancak bağımsız olarak barındırılırken birbirleriyle iletişim kurabilen birleştirilmiş sunucular topluluğudur. Bu sayede farklı sunucularda, kullanıcılar sözde kimlikler oluşturabilmektedir. İsim olarak "*federasyon*" ve "*evren*" sözcüklerinden türetilmiştir.
