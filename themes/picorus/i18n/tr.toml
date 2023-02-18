@@ -54,9 +54,5 @@ other = "Site altyapısı"
 
 [Comments]
   other = "Yorumlar"
-[Use_fediverse_account]
-  other = 'Mastodon veya Fediverse hesabınızı kullanarak bu <strong><a class="link" href="https://{{ .host }}/@{{ .username }}/{{ .id }}">toot!</a></strong> için <strong><a class="button" href="https://{{ .host }}/@{{ .username }}/{{ .id }}?type=reply">yanıt</a></strong> bırakabilirsiniz.'
-[Load_comments]
-  other = "Yorumları yükle"
-[No_comment]
-  other = "Henüz yorum yok, ilk siz olabilirsiniz!"
+[comment_message]
+  other = 'Mastodon veya Fediverse hesabınızı kullanarak bu <strong><a class="link" href="https://{{ .host }}/@{{ .username }}/{{ .id }}">toot!</a></strong> için <strong>cevap</strong> bırakabilirsiniz. Ya da arzu ederseniz yazıyla ilgili görüşleriniz için bana <strong><a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Contact From alperor.us Post"">eposta ✉️</a></strong> atabilirsiniz'

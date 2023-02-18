@@ -54,9 +54,6 @@ other = "Powered by"
 
 [Comments]
   other = "Comments"
-[Use_fediverse_account]
-  other = 'You can use your Mastodon or Fediverse account to <strong><a class="button" href="https://{{ .host }}/@{{ .username }}/{{ .id }}?type=reply">reply</a></strong> to this <strong><a class="link" href="https://{{ .host }}/@{{ .username }}/{{ .id }}">toot!</a></strong>'
-[Load_comments]
-  other = "Load comments"
-[No_comment]
-  other = "No comment, yet, be the first to react!"
+
+[comment_message]
+  other = 'You can use your Mastodon or Fediverse account to <strong>reply</strong> to this <strong><a class="link" href="https://{{ .host }}/@{{ .username }}/{{ .id }}">toot!</a></strong>. You can also drop me an email by <strong><a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Contact From alperor.us Post"">writing a message ✉️</a></strong>'
