@@ -8,6 +8,12 @@ tags = ["Linux" , "Fediverse" , "Decentralization", "Kiss"]
 topics = ["Open Source"]
 # series = []
 description = "Neden GNU/Linux ve açık kaynaklı özgür yazılım kullanıyorum, dört ana başlıkta ifade edebilirim."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109886381444127682
+
 +++
 
 Öncelikle "Özgür Yazılım" ile "Açık Kaynak" arasındaki kavramsal farkı not ederek başlamanın doğru olacağını düşünüyorum. Bu yüzden şu [linki](https://www.gnu.org/philosophy/open-source-misses-the-point.html) buraya bırakalım.

@@ -8,6 +8,12 @@ tags = ["Linux" , "Fediverse" , "Decentralization", "Kiss"]
 topics = ["Open Source"]
 # series = []
 description = "Why I use GNU/Linux and open source free/libre software, I can express in four main headings."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109886381444127682
+
 +++
 
 First of all, I think it would be right to start by noting the conceptual difference between "Free Software" and "Open Source". So let's leave this [link](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html) here.
