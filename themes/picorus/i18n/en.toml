@@ -56,4 +56,4 @@ other = "Powered by"
   other = "Comments"
 
 [comment_message]
-  other = 'You can use your Mastodon or Fediverse account to <strong>reply</strong> to this <strong><a class="link" href="https://{{ .host }}/@{{ .username }}/{{ .id }}">toot!</a></strong>. You can also drop me an email by <strong><a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Contact From alperor.us Post"">writing a message ✉️</a></strong>'
+  other = 'You can drop me an email by <strong><a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=Contact From alperor.us Post"">writing a message ✉️</a></strong>'
