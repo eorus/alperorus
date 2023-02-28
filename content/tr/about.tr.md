@@ -7,7 +7,7 @@ Merhaba, ben **Alper**! Serbest çalışan bir girişimciyim. Genellikle bir **b
 
 Sevdiğim şeyler (belirli bir sırayla değil) arasında Fujifilm kameralar, Thinkpad'ler, Bilim kurgu filmleri, Koşu, Jimnastik, Linux ve CLI uygulamalarıyla oynama yer alıyor. Bu arada Arch kullanıyorum :)
 
-Bireysel olarak sosyal medyada pek aktif olmadığım için benimle e-posta yoluyla [iletişim](/tr/iletisim) kurmaktan çekinmeyin.
+Bireysel olarak sosyal medyada pek aktif olmadığım için benimle e-posta yoluyla [iletişim](/iletisim) kurmaktan çekinmeyin.
 
 ## Ön Yüz Geliştirme
 

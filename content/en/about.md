@@ -7,7 +7,7 @@ Hi, I’m **Alper**! I'm a freelancer, entrepreneur. I usually write and generat
 
 Things I love (in no particular order) include Fujifilm cameras, Thinkpads, Sci-fi films, Running, Calisthenics, Linux and playing with CLI apps. By the way i use Arch :)
 
-Feel free to [Contact](/contact) with me via email as i am not much active person on social media.
+Feel free to [Contact](/en/contact) with me via email as i am not much active person on social media.
 
 ## Front-End Development
 
