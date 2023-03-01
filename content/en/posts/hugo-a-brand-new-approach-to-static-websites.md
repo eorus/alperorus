@@ -1,5 +1,6 @@
 +++
 date = "2022-12-05T18:18:06+03:00"
+lastmod = "2023-02-28T18:18:06+03:00"
 title = "Hugo : A Brand New Approach to Static Websites"
 author = ["Alper"]
 topics = ["Productivity"]
@@ -35,7 +36,7 @@ In summary, all kinds of businesses, individuals, portfolios such as companies, 
 
 Let's say you need a blog or a comprehensive site with a news section. With Hugo, you can develop templates using all kinds of HTML / CSS variations with javascript codes you will apply, add a comment section using a disqus-like system, and take care of visitor tracking and reporting using Google Analytics, which has already become standard.
 
-However, now I am building all the [projects](/projects) consisting of home page, about, portfolio or product list and contact pages with Hugo. Apart from that, as I mentioned above, there is already Wordpress for its dynamic requirements. But for these reasons, I think that getting involved in server, database, php structure, plugins and being up-to-date is unnecessary and makes the web cumbersome.
+However, now I am building all the projects consisting of home page, about, portfolio or product list and contact pages with Hugo. Apart from that, as I mentioned above, there is already Wordpress for its dynamic requirements. But for these reasons, I think that getting involved in server, database, php structure, plugins and being up-to-date is unnecessary and makes the web cumbersome.
 
 ### Hugo at a Glance
 

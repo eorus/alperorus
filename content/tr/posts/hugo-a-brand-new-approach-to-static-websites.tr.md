@@ -1,5 +1,6 @@
 +++
 date = "2022-12-05T18:18:06+03:00"
+lastmod = "2023-02-28T18:18:06+03:00"
 title = "Hugo : Statik Web Sitelerine Yepyeni Bir Yaklaşım"
 author = ["Alper"]
 topics = ["Open Source"]
@@ -33,7 +34,7 @@ Hugo'nun yapamayacağı şey **dinamik içeriktir**, örneğin veri tabanına da
 
 Diyelim blog veya haber bölümü olan kapsamlı bir site ihtiyacınız var. Hugo ile her türlü HTML/CSS varyasyonunu kullanarak hazırladığınız şablonları, uygulayacağınız javascript kodlar ile geliştirebilir, disqus benzeri bir sistem kullanarak yorum bölümü ekleyebilir, zaten artık standart haline gelmiş Google Analytics altyapısını kullanarak ise ziyaretçi takip ve raporlama işlerinizi halledebilirsiniz.
 
-Bununla birlikte, artık ana sayfa, hakkında, portfolyo veya ürün listesi ve iletişim sayfaları ihtiyacından oluşan tüm [projeleri](/tr/projects) Hugo ile gerçekleştiriyorum. Bunun dışında yukarıda bahsettiğim gibi dinamik gereksinimleri için zaten Wordpress var. Ama bu sebeplerden dolayı da sunucu, veritabanı, php yapısı, eklentiler ve güncel olma detaylarına bulaşmanında artık gereksiz olduğunu ve webi hantallaştırdığını düşünüyorum.
+Bununla birlikte, artık ana sayfa, hakkında, portfolyo veya ürün listesi ve iletişim sayfaları ihtiyacından oluşan tüm projeleri Hugo ile gerçekleştiriyorum. Bunun dışında yukarıda bahsettiğim gibi dinamik gereksinimleri için zaten Wordpress var. Ama bu sebeplerden dolayı da sunucu, veritabanı, php yapısı, eklentiler ve güncel olma detaylarına bulaşmanında artık gereksiz olduğunu ve webi hantallaştırdığını düşünüyorum.
 
 ### Bir Bakışta Hugo
 
