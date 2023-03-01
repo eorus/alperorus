@@ -14,7 +14,7 @@ summarylength = 25
 
 enableGitInfo = true
 [frontmatter]
-  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [sitemap]
   changefreq = 'weekly'
