@@ -1,6 +1,7 @@
 +++
 draft = false
 date = 2023-02-24T13:34:48+03:00
+lastmod = 2023-02-24T13:34:48+03:00
 title= "2022 Yılında İzlediğim Öne Çıkan Filmler ve Diziler"
 slug = "2022-movies-series"
 author = ["Alper"]

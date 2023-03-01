@@ -1,6 +1,7 @@
 +++
 draft = false
 date = 2023-02-18T16:23:54+03:00
+lastmod = 2023-02-18T16:23:54+03:00
 title= "Why I use only GNU/Linux and Free/Libre Open-Source Software?"
 slug = "why-gnu-linux"
 author = ["Alper"]

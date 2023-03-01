@@ -1,6 +1,7 @@
 +++
 draft = false
 date = 2023-02-10T14:55:49+03:00
+lastmod = 2023-02-10T14:55:49+03:00
 title= "Global Gitconfig File Setup and Aliases"
 slug = "gitconfig-aliases"
 author = ["Alper"]

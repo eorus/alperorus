@@ -1,6 +1,7 @@
 +++
 draft = false
 date = 2023-02-08T17:20:56+03:00
+lastmod = 2023-02-08T17:20:56+03:00
 title= "Arch Linux Temizliği Nasıl Yapılır? "
 slug = "clean-up-arch-linux"
 author = ["Alper"]

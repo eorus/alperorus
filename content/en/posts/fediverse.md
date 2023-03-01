@@ -1,6 +1,7 @@
 +++
 draft = false
 date = 2023-02-15T13:26:56+03:00
+lastmod = 2023-02-15T13:26:56+03:00
 title= "A Look at Fediverse and Decentralized Social Media Projects"
 slug = "fediverse"
 author = ["Alper"]

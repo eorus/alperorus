@@ -1,6 +1,7 @@
 +++
 draft = false
 date = 2022-11-05T12:44:40+03:00
+lastmod = 2022-11-05T12:44:40+03:00
 title= "Hello World"
 slug = "hello-world"
 author = ["Alper"]

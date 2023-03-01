@@ -1,6 +1,7 @@
 +++
 draft = false
 date = 2023-02-24T13:34:48+03:00
+lastmod = 2023-02-24T13:34:48+03:00
 title= "Featured Movies and Series I Watched in 2022"
 slug = "2022-movies-series"
 author = ["Alper"]

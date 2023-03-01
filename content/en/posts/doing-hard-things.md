@@ -1,6 +1,7 @@
 +++
 draft = false
 date = 2023-02-06T12:00:51+03:00
+lastmod = 2023-02-06T12:00:51+03:00
 title= "The Value of Doing Something Difficult"
 slug = "doing-hard-things"
 author = ["Alper"]

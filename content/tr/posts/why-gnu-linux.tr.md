@@ -1,6 +1,7 @@
 +++
 draft = false
 date = 2023-02-18T16:23:54+03:00
+lastmod = 2023-02-18T16:23:54+03:00
 title= "Neden Sadece GNU/Linux ve Free/Libre Açık Kaynaklı Yazılım Kullanıyorum?"
 slug = "why-gnu-linux"
 author = ["Alper"]

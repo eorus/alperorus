@@ -1,6 +1,7 @@
 +++
 draft = false
 date = "2023-02-07T18:03:22+03:00"
+lastmod = "2023-02-07T18:03:22+03:00"
 title = "Jamstack Sitemi Hugo, Cloudflare Pages ve Git ile Nasıl Oluşturdum?"
 slug = "my-jamstack-site-hugo-pico"
 author = ["Alper"]
