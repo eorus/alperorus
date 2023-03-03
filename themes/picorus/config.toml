@@ -13,6 +13,9 @@ summarylength = 25
 # disqusShortname = "alperor-us" # Enable Disqus comments by entering your Disqus shortname
 
 enableGitInfo = true
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [sitemap]
   changefreq = 'weekly'
