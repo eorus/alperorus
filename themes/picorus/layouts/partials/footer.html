@@ -9,7 +9,7 @@
         {{ with .Site.Menus.footer}}
           {{ range sort . }}
                 <li>
-                <a class="contrast" href="{{ .URL | relLangURL }}">
+                <a class="h-card contrast" rel="me" href="{{ .URL | relLangURL }}">
                 {{ .Pre }}
                 {{ .Name }}
                 </a>
