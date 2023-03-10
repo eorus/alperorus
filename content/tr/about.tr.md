@@ -1,4 +1,5 @@
 +++
+date = "2020-11-04T12:44:40+03:00"
 title = "Hakkımda"
 slug = "hakkimda"
 +++
