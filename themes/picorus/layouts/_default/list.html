@@ -23,11 +23,11 @@
   <div class="post-list">
 
     {{ range .Pages }}
-    <article class="post" style=" padding: 2em;">
+    <article class="h-entry post" style=" padding: 2em;">
       <hgroup>
-        <time class="post__date" datetime="{{ .Date }}"
+        <time class="dt-published" class="post__date" datetime="{{ .Date }}"
           >{{ .Date.Format $dateFormat }}</time>
-        <h2 class="post__title">
+        <h2 class="p-name post__title">
           <a href="{{.RelPermalink}}">{{ .Title }}</a>
         </h2>
       </hgroup>

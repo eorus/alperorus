@@ -6,7 +6,7 @@
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
 <section class="topics">
   <hgroup>
-        <h1>{{ .Title }}</h1>
+        <h1 class="p-name">{{ .Title }}</h1>
         <h2>
           {{ .Params.description }}
         </h2>
@@ -19,7 +19,7 @@
   <div id="post-list">
 
      {{ range (.Paginator 6).Pages }}
-    <article class="post">
+    <article class="h-entry post">
            <header>
 
            {{ range (.GetTerms "topics") }}
@@ -34,7 +34,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
   <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
 </svg>
-<time datetime="{{ $date }}">{{ $lastmod }}</time>
+<time class="dt-published" datetime="{{ $date }}">{{ $lastmod }}</time>
  <span class="separator">•</span>
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>

@@ -56,4 +56,4 @@ other = "Site altyapısı"
   other = "Yorumlar"
 
 [comment_message]
-  other = 'Arzu ederseniz yazıyla ilgili görüşleriniz için bana <strong><a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject=From alperor.us Post"">eposta ✉️</a></strong> atabilirsiniz'
+  other = 'Arzu ederseniz yazıyla ilgili görüşleriniz için bana <strong><a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject={{ .Title }}"">eposta ✉️</a></strong> atabilirsiniz'
