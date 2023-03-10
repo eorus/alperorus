@@ -8,7 +8,7 @@
           <hgroup>
           {{ partial "breadcrumbs.html" . }}
           {{ range (.GetTerms "topics") }}
-          <mark> <a href="{{ .Permalink }}">{{ .LinkTitle }}</a></mark>
+          <mark> <a class="p-category" href="{{ .Permalink }}">{{ .LinkTitle }}</a></mark>
           {{ end }}
             <h1 class="p-name" style="margin: 1rem 0;">{{ .Title }}</h1>
 

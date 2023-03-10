@@ -23,7 +23,7 @@
            <header>
 
            {{ range (.GetTerms "topics") }}
-              <mark> <a href="{{ .Permalink }}">{{ .LinkTitle }}</a></mark>
+              <mark> <a class="p-category" href="{{ .Permalink }}">{{ .LinkTitle }}</a></mark>
            {{ end }}
            <a class="text-decoration-none link-dark stretched-link" href="{{ .Permalink }}"><h3 style="margin: 1rem 0;">{{ .Title }}</h3>
            </a>
