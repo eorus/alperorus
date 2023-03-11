@@ -8,6 +8,12 @@ tags = ["Hugo", "Website", "Blog"]
 series = ["Theme"]
 Image= "/images/hugo-static-site-generator.jpg"
 description= "Bu kılavuzda, statik site oluşturucusu Hugo'nun sağladığı çeşitli iş akışları için faydaları hakkında bilgiler vermeye çalışacağım."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110005802934638386
+
 +++
 
 Son zamanlarda **statik siteler** birçok nedenden dolayı popüler olmaya ve gelişmeye devam ediyor. Bunun başlıca sebebini hantallaşmaya başlamış internetin neredeyse ilk zamanlarındaki sadeliği özlemesi olarak yorumlayabiliriz.

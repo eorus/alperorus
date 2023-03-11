@@ -55,4 +55,6 @@ other = "Site altyapısı"
 [Comments]
   other = "Yorumlar"
 [comment_message]
-  other = 'Mastodon veya Fediverse hesabınızı kullanarak bu <strong><a class="link" href="https://{{ .host }}/@{{ .username }}/{{ .id }}">toot!</a></strong> için <strong>cevap</strong> bırakabilirsiniz. Ya da arzu ederseniz yazıyla ilgili görüşleriniz için bana <strong><a href="mailto:alperor@gmail.com?cc=alper@eorus.com&subject={{ .Title }}"">eposta ✉️</a></strong> atabilirsiniz'
+  other = 'Mastodon veya Fediverse hesabınızı kullanarak bu <strong><a class="link" href="https://{{ .host }}/@{{ .username }}/{{ .id }}">toot!</a></strong> için <strong>cevap</strong> bırakabilirsiniz.'
+[comment_email]
+  other = 'ile yorum bırakın.'

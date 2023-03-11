@@ -8,6 +8,12 @@ tags = ["Hugo", "Website", "Blog"]
 series = ["Theme"]
 Image= "/images/hugo-static-site-generator.jpg"
 description= "In this guide, I will try to explain the benefits of static site builder Hugo for the various workflows it provides."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110005802934638386
+
 +++
 
 **Static sites** have been getting popular and improving lately for many reasons. The main reason for this is that the internet, which has started to become cumbersome, misses the simplicity of the early days.
