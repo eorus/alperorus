@@ -9,6 +9,12 @@ topics = ["Open Source"]
 tags = ["Linux", "Arch Linux", "Pacman"]
 # series = []
 description = "Bu yazıda Arch Linux sistemini nasıl temizleyeceğiniz hakkında bilgiler vereceğim."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110003728482954741
+
 +++
 
 İlgilendiğiniz şeylere düzenli olarak bakım uygulamanız onların daha sağlıklı ve sürdürülebilir olmasını sağlar. Bu yazıda [Arch Linux](https://archlinux.org) sistemini nasıl temizleyeceğiniz hakkında bilgiler vereceğim.

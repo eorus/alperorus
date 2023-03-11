@@ -9,6 +9,12 @@ tags = ["Git", "Linux"]
 topics = ["Open Source"]
 # series = []
 description = "Global git config file setup and how to make shortcuts expressed as alias work in .gitconfig to avoid unnecessary tasks"
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110003774655331636
+
 +++
 
 [Git](https://git-scm.com/) is a version control system designed and developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), the creator of the Linux kernel. Git helps developers keep track of the status of their code and allows them to collaborate on a codebase. Thanks to Git, you can easily return to the copies you have made when you need, by making copies of the step-by-step versions of the projects.

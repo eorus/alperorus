@@ -9,6 +9,13 @@ topics = ["Productivity" , "Thoughts"]
 tags = ["Habits", "Mental Health"]
 # series = []
 description = "İşleri Zor Yoldan Yapmak, Daha İyi Öğrenmeyi Sağlayabilir. Yeni ve zorlu bir aktivite gerçekleştirmek, bilişsel becerileri geliştirmek ve sürdürmek için iyi bir yoldur."
+
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110003764400685276
+
 +++
 
 İşleri zor yoldan yapmak, daha iyi öğrenmeyi sağlayabilir. Yeni ve zorlu bir aktivite gerçekleştirmek, bilişsel becerileri geliştirmek ve sürdürmek için iyi bir yoldur.

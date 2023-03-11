@@ -9,6 +9,12 @@ topics = ["Open Source"]
 tags = ["Linux", "Kiss", "Projects"]
 # series = []
 description = "Bu yazıda man sayfalarını kolay okumanızı sağlayacak iki farklı projeden bahsedeceğim tldr ve explainshell."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109959945103913415
+
 +++
 
 Bir Linux kullanıcısı olarak öğrenebileceğiniz en önemli becerilerden biri, kılavuz sayfasının yani man sayfaları'nın nasıl kullanılacağıdır. Bir başka deyişle kılavuz sayfasında uzmanlaşmak, Linux sistemini kullanırken rahat ve verimli olmanızı sağlayan önemli bir anahtardır. Tabi bunu başarabilen çok azdır ve genelde kılavuz sayfaları yerine internet aramalarına yöneliriz.

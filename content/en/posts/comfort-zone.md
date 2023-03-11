@@ -9,6 +9,12 @@ topics = ["Productivity", "Thoughts"]
 tags = ["Habits", "Mental Health", "Kiss", "Digital Minimalism"]
 # series = []
 description = "In this article, I interpret what is the comfort zone and its effects on quality of life in the digital world."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109988718334115686
+
 +++
 
 Actually, I thought the topic of this article was digital minimalism. But I made a small change in line with some of the new publications I've read recently. In fact, I brought this article forward.

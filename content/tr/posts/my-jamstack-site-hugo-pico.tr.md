@@ -9,6 +9,12 @@ topics = ["Open Source"]
 tags = ["Hugo", "Website", "Pico", "Jamstack", "Blog", "Kiss" ]
 series = ["Theme"]
 description= "Bu yazıda, sitede bahsedeceğim konulardan ziyade Hugo, Cloudflare Pages ve Git ile bu siteyi nasıl oluşturduğum ve zamanla eklemek istediğim yeni işlevler için bir giriş yapacağım."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110003800632077529
+
 +++
 
 Uzun zamandır, biriktirdiğim notlarımı aktarmak ve tecrübelerimi paylaşmak için bir site oluşturmak istiyordum. Yıllardır ertelediğim bu işi, hem gelişmekte olan [Jamstack](https://jamstack.org) trendine uyum sağlamak, hem de bu vesileyle *semantic html* yapısına uyan, tamamen kendi üretimim bir tema yaratarak yapmak önemli iki noktaydı.

@@ -9,6 +9,12 @@ topics = ["Open Source"]
 tags = ["Linux", "Kiss", "Projects"]
 # series = []
 description = "In this article, I will talk about two different projects that will make you read the man pages easily, tldr and explainshell."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109959945103913415
+
 +++
 
 One of the most important skills you can learn as a Linux user is how to use the man pages. In other words, mastering the man page is an important key to being comfortable and efficient when using the Linux system. Of course, very few achieve this, and we often turn to internet searches rather than manual pages.

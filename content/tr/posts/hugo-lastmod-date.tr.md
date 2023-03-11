@@ -9,6 +9,12 @@ topics = ["Open Source"]
 tags = ["Hugo", "Website", "Jamstack", "Blog"]
 # series = []
 description = "Hugo gönderilerine, makalelere son değiştirilmiş, son güncellenmiş veya son düzenlenmiş tarih nasıl eklenir ?"
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109949459501850351
+
 +++
 
 Sitemin altyapısı Hugo ve ara ara hem kendimi geliştirmek hem de tema yapısını Hugo'nun sağladığı basit ama güçlü değişkenlerle güncellemek hoşuma gidiyor.

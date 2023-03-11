@@ -9,6 +9,12 @@ topics = ["Productivity", "Thoughts"]
 tags = ["Habits", "Mental Health", "Kiss", "Digital Minimalism"]
 # series = []
 description = "Bu yazıda konfor alanı nedir ve dijital dünyada hayat kalitesine etkilerini yorumluyorum."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109988718334115686
+
 +++
 
 Aslında bu yazının konu başlığını dijital minimalizm olarak düşünmüştüm ama son dönemde okuduğum bazı yeni yayınlar doğrultusunda küçük bir değişiklik yaptım. Daha doğrusu bu yazıyı öne aldım. Dijital minimalizm için ayrı bir yazı ele almadan önce KISS felsefesi, açık kaynak ve internet okur yazarlığı başlıklarında tamamlayıcı konulara değinmek istiyorum.

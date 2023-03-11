@@ -9,6 +9,12 @@ topics = ["Open Source"]
 tags = ["Hugo", "Website", "Jamstack", "Blog"]
 # series = []
 description = "How to add last modified, last updated or last edited date to Hugo posts, articles?"
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109949459501850351
+
 +++
 
 The infrastructure of my site is Hugo, and from time to time I like to improve myself and update the theme structure with the simple but powerful variables that Hugo provides.

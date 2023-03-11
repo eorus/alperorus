@@ -9,6 +9,12 @@ topics = ["Open Source"]
 tags = ["Hugo", "Website", "Pico", "Jamstack", "Blog", "Kiss" ]
 series = ["Theme"]
 description= "In this article, I will talk about how I created this site with Hugo, Cloudflare Pages and Git and what I want to add over time, rather than the topics I want to mention."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110003800632077529
+
 +++
 
 For a long time, I wanted to create a site to transfer my notes and share my experiences. Two important points were both adapting to the developing [Jamstack](https://jamstack.org) trend and creating a completely self-produced theme that fits the *semantic html* structure.

@@ -9,6 +9,12 @@ topics = ["Productivity" , "Thoughts" ]
 tags = ["Habits", "Mental Health"]
 # series = []
 description = "Doing things the hard way can lead to better learning. Performing a new and challenging activity is a good way to develop and maintain cognitive skills."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110003764400685276
+
 +++
 
 Doing things the hard way can lead to better learning. Performing a new and challenging activity is a good way to develop and maintain cognitive skills.

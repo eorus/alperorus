@@ -9,6 +9,12 @@ topics = ["Open Source"]
 tags = ["Linux", "Kiss"]
 # series = []
 description = "Thinkpad X220 that I still use in 2023 and WM and Cli Applications I use on it"
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109977424702639041
+
 +++
 
 My personal machine is a 12 year old **Lenovo ThinkPad X220** that I'm running Arch with [i3wm](https://i3wm.org/) or [bspwm](https://github.com/baskerville/bspwm). I still use it fondly in 2023 and I want to continue using until it leaves me. I'm trying to make the X220 as efficient as I can with [Arch Linux](https://archlinux.org/) and WMs and related shortcuts. Especially in recent years, I have had a very comfortable and sustainable system by using command line applications. Presumably this is the same for anyone using any WM on Linux and customizing it and backing up the [dotfiles](https://github.com/eorus/dotfiles) configuration files, but for a machine with an i5-2450M processor, today's websites and traditional programs it can be quite challenging.

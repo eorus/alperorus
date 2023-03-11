@@ -9,6 +9,12 @@ topics = ["Art"]
 tags = ["Movies", "Series"]
 # series = []
 description = "2022 yılında izlediğim yapımlar arasında beni etkileyen, üzerinde konuşmaya değer ve tavsiye niteliğinde olabilecek sinema ve dizilerin bir listesi."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109920436489401186
+
 +++
 
 2023 yılında yeniden blog yazmaya başladığımı hatırlamak için localde yazıya döktüğüm notlarımın sinema ve dizilerle ilgili olan kısmını biraz genişleterek ve eklemeler yaparak aktarmaya karar verdim. Daha da geç olmadan 2022 yılında izlediğim yapımlar arasında beni etkileyen, üzerinde konuşmaya değer ve tavsiye niteliğinde olabilecek sinema ve dizilerin bir listesi.

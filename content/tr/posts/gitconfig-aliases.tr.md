@@ -9,6 +9,12 @@ tags = ["Git", "Linux"]
 topics = ["Open Source"]
 # series = []
 description = "Gereksiz görevlerden kaçınmak için global git yapılandırma dosya kurulumu ve alias olarak ifade edilen takma adların .gitconfig'te çalışması nasıl sağlanır"
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110003774655331636
+
 +++
 
 [Git](https://git-scm.com/), Linux çekirdeğinin yaratıcısı [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) tarafından tasarlanan ve geliştirilen sürüm kontrol sistemidir (Version Control System). Git, geliştiricilerin kodlarının durumunu takip etmelerine yardımcı olur ve bir kod tabanı üzerinde işbirlikleri yapmalarına olanak tanır. Git sayesinde yapacağınız projelerin adım adım versiyonlarının kopyalarını alarak daha sonra ihtiyaç duyduğunuzda aldığınız kopyalara yani versiyonlara kolayca dönebilirsiniz.

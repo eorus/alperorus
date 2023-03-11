@@ -9,6 +9,12 @@ topics = ["Open Source"]
 tags = ["Linux", "Kiss"]
 # series = []
 description = "2023 yılında hala kullanmaya devam ettiğim Thinkpad X220 ve üzerinde kullandığım WM ve Cli Uygulamalar"
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109977424702639041
+
 +++
 
 Kişisel makinem, [i3wm](https://i3wm.org/) veya [bspwm](https://github.com/baskerville/bspwm) ile Arch koşturduğum 12 yaşında bir **Lenovo ThinkPad X220**. 2023 ylında hala severek kullanıyorum ve o beni bırakana kadar da kullanmaya devam etmek istiyorum. [Arch Linux](https://archlinux.org/) ve artık kısayolları ile benimle bütünleşmiş olan WM'lar ile X220'yi elimden geldiğince verimli hale getirmeye çalışıyorum. Özellikle son yıllarda tamamen komut satırı uygulamalar kullanmam ile çok rahat ve sürdürülebilir bir sisteme sahip oldum. Muhtemelen bu, Linux üzerinde herhangi bir WM kullanan ve kendine göre özelleştirip [dotfiles](https://github.com/eorus/dotfiles) konfigürasyon dosyalarını yedekleyen herkes için aynıdır ama i5-2450M işlemciye sahip bir makine için günümüz internet siteleri ve geleneksel programlar oldukça yorucu olabiliyor.

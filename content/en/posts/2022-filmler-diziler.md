@@ -9,6 +9,12 @@ topics = ["Art"]
 tags = ["Movies", "Series"]
 # series = []
 description = "Here is a list of movies and TV series that impressed me among the productions I watched in 2022, which are worth talking about and may be of recommendation."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 109920436489401186
+
 +++
 
 In order to remember that I started blogging again in 2023, I decided to transfer the part of my local notes related to movies and TV series by expanding and adding some of the contents. Here is a list of movies and TV series that impressed me, worth talking about and maybe a recommendation, I watched in 2022. I would like to publish before it was too late.

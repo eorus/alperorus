@@ -9,6 +9,12 @@ topics = ["Open Source"]
 tags = ["Linux", "Arch Linux", "Pacman"]
 # series = []
 description = "In this article, I will provide information on how to clean the Arch Linux system."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110003728482954741
+
 +++
 
 Regularly caring for the things you care about keeps them healthier and more sustainable. In this article, I will provide information on how to clean the [Arch Linux](https://archlinux.org) system.
