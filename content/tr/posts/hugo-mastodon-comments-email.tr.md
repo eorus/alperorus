@@ -9,6 +9,12 @@ topics = ["Open Source"]
 tags = ["Hugo", "Blog", "Website"]
 # series = []
 description = "Bugün Hugo siteme e-posta ile cevapla ve mastodon yorumları nasıl eklediğimden bahsedeceğim."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110011904595305978
+
 +++
 
 Statik site oluşturucuların en büyük dezavantajlarından biri ne diye sorsanız muhtemelen ilk cevap yorum bölümü ve form eklemek olacaktır. Bu sorunu çözmek için çeşitli üçüncü taraf çözümler var. Örneğin Hugo için Disqus gibi yorumları yönetebileceğiniz bir yapı ekleyebilirsiniz, ancak bunun web sitenize extra js ve kötü bir gizlilik kaydı olan bir aracı dahil etme dezavantajı vardır.

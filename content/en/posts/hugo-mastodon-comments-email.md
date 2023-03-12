@@ -9,6 +9,12 @@ topics = ["Open Source"]
 tags = ["Hugo", "Blog", "Website"]
 # series = []
 description = "Today I'm going to talk about how I added reply by email and mastodon comments to my Hugo site."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110011904595305978
+
 +++
 
 If you ask what is one of the biggest disadvantages of static site builders, the first answer will probably be to add a comment section and form. There are various third-party solutions to fix this problem. For example, you can add an engine like Disqus for Hugo where you can manage comments, but this has the downside of including a tool with extra js and a bad privacy record on your website.
@@ -19,7 +25,7 @@ I think a better solution is to take advantage of Mastodon and the [Fediverse](/
 
 Today I'm going to talk about how I added **"reply by email"** and **"mastodon comments"** to my Hugo site.
 
-Chances are, if you scroll to the end of the post, you'll see a "reply by email" section and a "toot" link to comment on the mastodon.
+If you scroll to the end of the post, you'll see a "reply by email" section and a "toot" link to comment on the mastodon.
 
 ## Adding Mastodon Comments
 
