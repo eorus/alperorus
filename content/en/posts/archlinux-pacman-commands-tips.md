@@ -9,6 +9,13 @@ topics = ["Open Source"]
 tags = ["Linux", "Arch Linux", "Pacman"]
 # series = []
 description = "Let's take a look at how Pacman works, the options it offers, and how we can use it to manage packages in Arch Linux"
+
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110023283846066017
+
 +++
 
 If we think of [Linux](https://en.wikipedia.org/wiki/Linux) distributions as a person, package managers are the most important factors that determine the characters and structures of these people. With package managers you can install and enjoy the latest software on your desktop. **Pacman**, which is a combination of the words **"Package"** and **"Manager"**, is the default package manager used on Arch-based systems.

@@ -9,6 +9,13 @@ topics = ["Open Source"]
 tags = ["Linux", "Arch Linux", "Pacman"]
 # series = []
 description = "Pacman'in çalışma şekline, sunduğu seçeneklere ve Arch Linux'ta paketleri yönetmek için nasıl kullanabileceğimize bir göz atalım."
+
+[comments]
+host = "fosstodon.org"
+username = "eorus"
+id = 110023283846066017
+
+
 +++
 
 [Linux](https://tr.wikipedia.org/wiki/Linux) dağıtımlarını bir kişi gibi düşünürsek paket yöneticileri de bu kişilerin karakterlerini, yapılarını belirleyen en önemli unsurlardır. Paket yöneticileri ile masaüstünüzde en son yazılımı yükleyebilir ve keyfini çıkarabilirsiniz. **"Paket"** ve **"Yönetici"** kelimelerinin birleşiminden oluşan **Pacman**, Arch tabanlı sistemlerde kullanılan varsayılan paket yöneticisidir.
